@@ -1,0 +1,182 @@
+# homepage
+homepage:
+  head:
+    title: "Home | Raditian"
+# showcase
+showcase:
+  enable: true
+  title: "ROOTS"
+  subtitle: "Coming 25<sup>th</sup> June 2021"
+  description: "\"He exerted a masterly level of control and lavished an exquisite tone on Ysaÿe’s unaccompanied Sonata No. 3. ...his performance won him a deserved standing ovation for its sheer virtuosity.\""
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/roots-base.png"
+    _2x: "img/showcase/roots-base.png"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "img/showcase/roots-base.png"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "instagram"
+      URL: "https://www.instagram.com/itsgooz/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/rmgviolin/"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/RandallGoosby"
+
+    - icon: "spotify"
+      URL: "https://open.spotify.com/artist/1wgIWZ93QjeVdMO6k6Cy6K"
+
+
+# about
+about:
+  enable: true
+  title: "About"
+  content: '<p class="lead">
+    Violinist Randall Mitsuo Goosby (24), has appeared as guest soloist with numerous orchestras throughout the United States since winning First Prize at the Annual Sphinx Concerto Competition in 2010 at age 13. Shortly after winning the Sphinx Competition, Randall was invited to appear as part of the New York Philharmonic’s prestigious Young People’s Concert series at Avery Fisher Hall, Lincoln Center.</p>
+   <p class="lead"> As a soloist, Randall has performed widely throughout the USA, having appeared with the Cleveland Orchestra, New York Philharmonic, and the New World Symphony Orchestra, among others. He has also given recitals at such venues as the Kennedy Center (Washington D.C.), Kaufman Center (New York City),  and Wigmore Hall (London).
+    </p>'
+  button:
+    icon: "icon-arrow-right"
+    btnText: "⠀Read More"
+    URL: "/bio"
+  image:
+    x: "img/who-am-i/goos.JPG"
+    _2x: "img/who-am-i/goos.JPG"
+
+# education
+education:
+  enable: false
+  title: "Education"
+  items:
+    - university: "University of Waterloo"
+      year: "2012-2017"
+      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+
+    - university: "Sir John A Macdonald CI"
+      year: "2009-2012"
+      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+
+# experience
+events:
+  enable: true
+  title: "Events"
+  description: ""
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "More"
+    URL: "/events"
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download My Resume"
+  #   URL: "#"
+
+#gallery
+gallery:
+  enable: true
+  title: "Gallery"
+
+# Client & Work
+client_and_work:
+  title: "Featured Videos"
+  enable: true
+
+  works:
+    - title: "Randall Goosby and Zhu Wang | Grant Still: Suite for Violin and Piano, III. Gamin"
+      description: "Young Concert Artists Series <br />Merkin Concert Hall at Kaufman Music Center <br />December 11, 2019"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/vid1thumb.jpg"
+        _2x: "img/works/vid1thumb.jpg"
+        URL: https://youtu.be/37iDfyPnzQs
+      is_even: true
+
+    - title: "Beethoven Violin Sonata no. 9 , Op. 47 - The 'Bridgetower' Sonata"
+      description: "Commissioned by the Chineke! Foundation, in partnership with Google Arts and Culture, to commemorate the 250th anniversary of the birth of Ludwig van Beethoven.<br />December 2020"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "img/works/canvas.png"
+        _2x: "img/works/canvas.png"
+        URL: https://www.youtube.com/watch?v=4wSjpNKzr4s
+      is_even: false
+
+
+# testimonial
+testimonial:
+  enable: true
+  title: "In the Press"
+  items:
+    - name: "Arts ATL"
+      position: ""
+      content: "His playing was transcendental. To borrow a phrase from C.S. Lewis, to listen to Goosby was to be surprised by joy. ... Goosby's tone walked a perfect balance between silky smooth and gutturally abrasive, conveying the piece’s tumultuous cavalcade of emotions with the expert precision normally associated with folk legends rather than real people. Whether delivering searing long notes or intricate speed runs, each note of Goosby’s performance stood alone as an individual work of art."
+      url: https://www.artsatl.org/guest-conductor-gemma-new-violinist-randall-goosby-electrify-symphony-hall/
+      image:
+        x: ""
+        _2x: ""
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "img/testimonials/jonathan-peters.jpg"
+        _2x: "img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "img/testimonials/antonio-willis.jpg"
+        _2x: "img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact"
+  form:
+    method: "POST"
+    action: "#"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  US:
+    phone:
+      title: "Phone Number"
+      number: "(212) 307-6657"
+    email:
+      title: "Email"
+      email: '<a href="mailto:management@yca.org">Monica J. Felkel, Director of Artist Management<br>Vicki Margulies, Artist Manager</a>'
+    address:
+      title: "Address"
+      address: "Young Concert Artists<br>1776 Broadway, Suite 1500<br>New York, NY 10019"
+  UK:
+    phone:
+      title: "Phone Number"
+      number: "0207 379 8477"
+    email:
+      title: "Email"
+      email: '<a href="mailto:sh@ycat.co.uk">Sue Hudson, Senior Artist Manager</a>'
+    address:
+      title: "Address"
+      address: "Young Classical Artists Trust<br>Somerset House, West Wing<br>Strand, London WC2R 1LA"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
