@@ -37,7 +37,7 @@
           {{ end }}
         </ul>
       </div>
-      <div class="row platform-links" style="color:#fff">
+      <div class="row platform-links" style="display:none;color:#fff">
         {{ range .Site.Data.homepage.showcase.socialLinks }}
         <a href="{{ .URL | relURL }}" target="_blank">
           <i class="ri-{{ .icon }}-fill"></i>

@@ -10,11 +10,11 @@ showcase:
   description: "\"He exerted a masterly level of control and lavished an exquisite tone on Ysaÿe’s unaccompanied Sonata No. 3. ...his performance won him a deserved standing ovation for its sheer virtuosity.\""
   image:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/roots-base.png"
-    _2x: "img/showcase/roots-base.png"
+    x: "img/showcase/roots-base.jpg"
+    _2x: "img/showcase/roots-base.jpg"
   imageMobile:
     alt: "Showcase keyboard and mouse image"
-    x: "img/showcase/roots-base.png"
+    x: "img/showcase/roots-base-mobile.jpg"
   button:
     icon: "icon-mail-fill"
     btnText: "Contact"

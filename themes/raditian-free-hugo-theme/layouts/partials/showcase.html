@@ -1,5 +1,5 @@
 {{ if .Site.Data.homepage.showcase.enable }}
-<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="margin-bottom: 2em;background:linear-gradient(rgba(0,0,0,0),rgba(199,115,72,0),rgba(199,115,72,1)),url('{{ .Site.Data.homepage.showcase.image.x | relURL }}');background-size:cover;height:100vh;background-position:center; background-repeat: no-repeat;background-attachment:fixed">
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="margin-bottom: 2em;background-size:cover;height:100vh; background-repeat: no-repeat;background-attachment:fixed">
   <!-- <div class="rad-showcase__bg">
     <img
       class="lozad img-responsive"
@@ -23,13 +23,13 @@
           <br />
         </h1>
           <a href="{{ "/press/decca" | relURL }}" class="underline">
-            <span style="letter-spacing: normal;font-size:30px">
+            <span style="letter-spacing: normal;font-size:30px;line-height:1.5em">
               {{ .Site.Data.homepage.showcase.subtitle | safeHTML }}
             </span>
             <svg viewBox="0 0 13 20">
               <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
             </svg>
-          </a>
+          </a><br>
         <a href="https://randallgoosby.lnk.to/RootsWE" class="btn btn-primary"
             target="_blank" style="margin-top:2.25em;margin-right:2ch">
             <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>

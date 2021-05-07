@@ -8,16 +8,22 @@
   {{ $base := "gal-img" }}
   {{ $path := print "static/" ("gal-img") }}
   <div class="main-carousel" data-flickity='{ "imagesLoaded": "true", "adaptiveHeight": "true", "autoPlay": "true", "wrapAround": "true", "cellAlign": "left", "contain": "true"}'>
-  {{ range (readDir $path) }}
-    {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}
-    <!-- is the current file an image? -->
-    {{- if and $isimg}}
+    {{ range (readDir $path) }}
+      {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}
+      <!-- is the current file an image? -->
+      {{- if and $isimg}}
       <div class="carousel-cell">
           <img src="/{{ $base  }}/{{.Name}}"> 
       </div>
-    {{- end }}
-  {{ end }}
-
+      {{- end }}
+    {{ end }}
+  </div>
+  <div class="row mt-5 text-center">
+    <div class="col"><p>images © Kaupo Kikkas</p></div>
+  </div>
+</section>
+{{ end }}
+        
       <!-- 
     
     {{/*  <div class="row row--padded rad-animation-group rad-fade-down"> CLIENTS SHIT
@@ -88,6 +94,3 @@
       {{ end }}
     </div>
     {{ end }} -->
-  </div>
-</section>
-{{ end }}
