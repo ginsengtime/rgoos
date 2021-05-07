@@ -6,18 +6,18 @@ webhook_url:
 sections:
 - type: directory
   path: content/event
-  label: Event
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/gal-img
-  label: Gal img
+  label: Events
   create: all
   match: "**/*"
 - type: directory
   path: content/press
-  label: Press
+  label: Press Items
   create: all
+  match: "**/*"
+- type: directory
+  path: themes/raditian-free-hugo-theme/content/gal-img
+  label: Gallery Images
+  create: documents
   match: "**/*"
 - type: directory
   path: content
