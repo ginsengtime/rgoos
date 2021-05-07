@@ -53,7 +53,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "About"
-  URL = "/about"
+  URL = "/bio"
   weight = 2
 
   [[menu.footer]]
@@ -63,7 +63,7 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "News"
-  URL = "/news"
+  URL = "/press"
   weight = 4
 
   [[menu.footer]]

@@ -176,7 +176,7 @@ contact:
 # newsletter
 newsletter:
   enable: true
-  title: "Newsletter subscription"
+  title: "Subscribe to the Newsletter"
   success_message: "Successfully subscribed"
   error_message: "Error while subscribing."
   note: "We'll never share your email with anyone else."
