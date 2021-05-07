@@ -1,11 +1,11 @@
 {{ if .Site.Data.homepage.showcase.enable }}
-<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="margin-bottom: 2em;background:linear-gradient(rgba(0,0,0,0),rgba(199,115,72,0),rgba(199,115,72,1)),url('{{ .Site.Data.homepage.showcase.image.x | absURL }}');background-size:cover;height:100vh;background-position:center; background-repeat: no-repeat;background-attachment:fixed">
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="margin-bottom: 2em;background:linear-gradient(rgba(0,0,0,0),rgba(199,115,72,0),rgba(199,115,72,1)),url('{{ .Site.Data.homepage.showcase.image.x | relURL }}');background-size:cover;height:100vh;background-position:center; background-repeat: no-repeat;background-attachment:fixed">
   <!-- <div class="rad-showcase__bg">
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
-      data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 2x"
+      data-src="{{ .Site.Data.homepage.showcase.image.x | relURL }}"
+      data-srcset="{{ .Site.Data.homepage.showcase.image.x | relURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | relURL }} 2x"
       alt="{{ .Site.Data.homepage.showcase.image.alt }}"
     />
   </div> -->
@@ -22,7 +22,7 @@
           {{ .Site.Data.homepage.showcase.title }}
           <br />
         </h1>
-          <a href="{{ "/press/decca" | absURL }}" class="underline">
+          <a href="{{ "/press/decca" | relURL }}" class="underline">
             <span style="letter-spacing: normal;font-size:30px">
               {{ .Site.Data.homepage.showcase.subtitle | safeHTML }}
             </span>

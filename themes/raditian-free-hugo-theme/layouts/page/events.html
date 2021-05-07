@@ -41,7 +41,7 @@
                 {{ range (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
                   <tr>
                     <td>{{ .Date | dateFormat "Mon, Jan 2" }}</td>
-                    <td><a href="{{ .Params.link | absURL }}">{{ .Title }}</a> </td>
+                    <td><a href="{{ .Params.link | relURL }}">{{ .Title }}</a> </td>
                     <td>{{ .Params.place }}</td>
                   </tr>
                   {{ end }}

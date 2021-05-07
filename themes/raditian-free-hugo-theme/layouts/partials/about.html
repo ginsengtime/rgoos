@@ -6,8 +6,8 @@
         <img
           class="lozad img-responsive rounded"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .Site.Data.homepage.about.image.x | absURL }}"
-          data-srcset="{{ .Site.Data.homepage.about.image.x | absURL }} 1x, {{ .Site.Data.homepage.about.image._2x | absURL }} 2x"
+          data-src="{{ .Site.Data.homepage.about.image.x | relURL }}"
+          data-srcset="{{ .Site.Data.homepage.about.image.x | relURL }} 1x, {{ .Site.Data.homepage.about.image._2x | relURL }} 2x"
           alt="Profile Picture"
         />
       </div>
@@ -17,7 +17,7 @@
           {{ .Site.Data.homepage.about.content | safeHTML }}
         </p>
         <a
-          href="{{ .Site.Data.homepage.about.button.URL | absURL }}"
+          href="{{ .Site.Data.homepage.about.button.URL | relURL }}"
           target="_blank"
           class="btn btn-primary"
         >

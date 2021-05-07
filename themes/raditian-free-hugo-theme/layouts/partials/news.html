@@ -17,7 +17,7 @@
                          data-srcset="{{ .image.x | absURL }} 1x, {{ .image._2x | absURL }} 2x"
                          alt="{{ .name }}"/>  */}}
                     <div class="testimonial__author-info">
-                        {{ with .Param "link" }}<a href="{{ . | absURL }}"
+                        {{ with .Param "link" }}<a href="{{ . | relURL }}"
                             {{ else }}<a href="{{ .Permalink }}"{{end}} class="underline">
                             <span>{{ .Title }}</span>
                             <svg viewBox="0 0 13 20">

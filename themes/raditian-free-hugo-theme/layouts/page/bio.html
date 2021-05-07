@@ -20,8 +20,8 @@
             class="lozad about__profile-picture img-responsive image-left-overflow float-left"
             style= "margin:0 1em 1em 0"
             src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-            data-src="{{ .Params.image | absURL }}"
-            data-srcset="{{ .Params.image | absURL }}"
+            data-src="{{ .Params.image | relURL }}"
+            data-srcset="{{ .Params.image | relURL }}"
             alt="Profile Picture" />
             <h2>{{ .Site.Data.homepage.about.title }}</h2>
                 {{ .Content }}

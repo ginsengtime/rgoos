@@ -5,13 +5,13 @@
             <div class="col-12 col-sm-6 mt-5 mt-sm-0">
                 <h2 style="margin-bottom:0.5em">{{ .Site.Data.homepage.events.title }}</h2>
                 {{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
-                <div class="event"><a href="{{ .Params.link | absURL }}">
+                <div class="event"><a href="{{ .Params.link | relURL }}">
                         <div class="event__date">{{ .Date | dateFormat "02 Jan 06⠀⠀//⠀⠀15:04" }}</div>
                         <div class="event__title" style="width:100%">{{ .Title }}</div>
                         <div class="event__locale">{{ .Params.place }}</div></a>
                     </div>
                 {{ end }}
-                <a href="{{ .Site.Data.homepage.events.button.URL | absURL }}" class="btn btn-primary"
+                <a href="{{ .Site.Data.homepage.events.button.URL | relURL }}" class="btn btn-primary"
                    target="_blank" style="margin:2.25em 0">
                     <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>
                     {{ .Site.Data.homepage.events.button.btnText }}
