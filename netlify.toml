@@ -1,2 +1,4 @@
 [build]
-publish = “themes/raditian-free-hugo-theme/public/”
+base = "/"
+command = "npm run build"
+publish = "/public/"
