@@ -53,22 +53,22 @@ theme = "raditian-free-hugo-theme"
 
   [[menu.footer]]
   name = "About"
-  URL = "/#about"
+  URL = "/about"
   weight = 2
 
   [[menu.footer]]
   name = "Events"
-  URL = "/#events"
+  URL = "/events"
   weight = 3
 
   [[menu.footer]]
   name = "News"
-  URL = "/#news"
+  URL = "/news"
   weight = 4
 
   [[menu.footer]]
   name = "Contact"
-  URL = "/#contact"
+  URL = "/contact"
   weight = 5
 
 
@@ -85,8 +85,8 @@ theme = "raditian-free-hugo-theme"
     text2 = "   GOOSBY"
 
   [params.footer]
-      copyright = "© Raditian. All rights reserved."
+      copyright = "© Randall Goosby. All rights reserved."
       [params.footer.radity_logo]
-        x = "img/general/design-and-code-radity.png"
-        _2x = "img/general/design-and-code-radity@2x.png"
+        x = "img/general/gg.png"
+        _2x = "img/general/gg.png"
         alt = "Design & Code - Radity"
