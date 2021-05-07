@@ -145,7 +145,7 @@ contact:
   title: "Contact"
   form:
     method: "POST"
-    action: "#"
+    action: "https://forms.un-static.com/forms/d37a28050df4592fe74c29b41432bf5cac888c07"
     full_name: "Full Name"
     email: "Email Address"
     message: "Type Your Message Here"

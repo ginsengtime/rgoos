@@ -40,7 +40,12 @@
                 <tbody>
                 {{ range (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
                   <tr>
-                    <td>{{ .Date | dateFormat "Mon, Jan 2" }}</td>
+                    <td>{{ .Date | dateFormat "02 Jan" }}
+                    {{if .Params.date3}}
+                    , {{ .Params.date2 | dateFormat "02 Jan" }}, {{ .Params.date3 | dateFormat "02 Jan" }}
+                    {{ else if and (.Params.date2) (not .Params.date3)}}
+                    – {{ .Params.date2 | dateFormat "02 Jan" }}
+                    {{end}}</td>
                     <td><a href="{{ .Params.link | relURL }}">{{ .Title }}</a> </td>
                     <td>{{ .Params.place }}</td>
                   </tr>
