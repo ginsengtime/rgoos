@@ -1,0 +1,22 @@
+---
+label: Featured News Item
+hide_body: true
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: file
+  name: img
+  label: img
+- type: textarea
+  name: summary
+  label: summary
+- type: text
+  name: link
+  label: link
+- type: boolean
+  name: feature
+  label: feature
