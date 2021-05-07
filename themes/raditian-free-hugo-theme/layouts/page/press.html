@@ -1,0 +1,47 @@
+<!-- inject:../components/baseHead/baseHeadStart.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  {{ partial "head.html" . }}
+
+  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
+</head>
+
+<body>
+
+  {{ partial "header.html" . }}
+
+  <section class="section">
+    <div class="container">
+      <div class="row d-flex flex-md-row" data-masonry='{"percentPosition": true }'>
+
+                {{ range (where site.RegularPages "Type" "press") }}
+                <div class="col-sm-6 col-lg-4 mb-4">
+                  <div class="card">
+                    <img class="card-img-top" src="{{ .Params.img | absURL }}" alt="Card image cap">
+                    <div class="card-body">
+                      {{ with .Param "link" }}<a href="{{ . | absURL }}">
+                      {{ else }}<a href="{{ .Permalink }}">{{end}}
+                        <h5 class="card-title">{{ .Title }}</h5>
+                      </a>
+                      <p class="card-text">{{ .Summary }}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                
+                {{ end }}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ partial "footer.html" . }}
+  {{ partial "base-foot.html" . }}
+</body>
+
+</html>
+<!-- endinject -->

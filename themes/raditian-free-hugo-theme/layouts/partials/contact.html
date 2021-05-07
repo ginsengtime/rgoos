@@ -1,0 +1,58 @@
+{{ if .Site.Data.homepage.contact.enable }}
+<section id="contact" class="section section--contact pt-0">
+    <div class="container">
+        <div class="contact">
+            <div class="row pt-2">
+                <div class="col-12 col-lg-6">
+                    <h2 style="color:#333">{{ .Site.Data.homepage.contact.title }}</h2>
+                    <form style="color:#333" action="{{ .Site.Data.homepage.contact.form.action }}" method="{{ .Site.Data.homepage.contact.form.method }}">
+                        <div class="row">
+                            <div class="col-12 col-sm-6">
+                                <label for="NAME">Full Name:</label>
+                                <input type="text" name="NAME" id="full_name"
+                                       placeholder="{{ .Site.Data.homepage.contact.form.full_name }}"/>
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <label for="EMAIL">Email Address:</label>
+                                <input type="text" name="EMAIL" id="email"
+                                       placeholder="{{ .Site.Data.homepage.contact.form.email }}"/>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <label for="MSG">Message:</label>
+                                <textarea name="MSG" id="message"
+                                          cols="30" rows="3" placeholder="{{ .Site.Data.homepage.contact.form.message }}"></textarea>
+                            </div>
+                        </div>
+                        <div class="row pt-4">
+                            <div class="col-12">
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="{{ .Site.Data.homepage.contact.button.icon }}"></i>
+                                    {{ .Site.Data.homepage.contact.button.btnText }}
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-12 col-lg-6 contact__info">
+                  <h3 style="color:#333">United States</h3>
+                    <h4>{{ .Site.Data.homepage.contact.US.phone.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.US.phone.number }}</span>
+                    <h4>{{ .Site.Data.homepage.contact.US.email.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.US.email.email | safeHTML }}</span>
+                    <h4>{{ .Site.Data.homepage.contact.US.address.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.US.address.address | safeHTML }}</span>
+                  <h3 style="color:#333;margin-top:.5em">U.K. and Europe</h3>
+                    <h4>{{ .Site.Data.homepage.contact.UK.phone.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.UK.phone.number }}</span>
+                    <h4>{{ .Site.Data.homepage.contact.UK.email.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.UK.email.email | safeHTML }}</span>
+                    <h4>{{ .Site.Data.homepage.contact.UK.address.title }}</h4>
+                    <span>{{ .Site.Data.homepage.contact.UK.address.address | safeHTML }}</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

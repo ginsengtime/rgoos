@@ -1,0 +1,49 @@
+{{ if .Site.Data.homepage.showcase.enable }}
+<section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="margin-bottom: 2em;background:linear-gradient(rgba(0,0,0,0),rgba(199,115,72,0),rgba(199,115,72,1)),url('{{ .Site.Data.homepage.showcase.image.x | absURL }}');background-size:cover;height:100vh;background-position:center; background-repeat: no-repeat;background-attachment:fixed">
+  <!-- <div class="rad-showcase__bg">
+    <img
+      class="lozad img-responsive"
+      src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+      data-src="{{ .Site.Data.homepage.showcase.image.x | absURL }}"
+      data-srcset="{{ .Site.Data.homepage.showcase.image.x | absURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | absURL }} 2x"
+      alt="{{ .Site.Data.homepage.showcase.image.alt }}"
+    />
+  </div> -->
+  <div class="container">
+    <div class="row">
+      <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
+        <!-- <p class="lead" style="margin-top: 2em;color:#fff">
+          {{ .Site.Data.homepage.showcase.description | safeHTML }}
+          <div class="testimonial__author-info">
+            <h4 style="font-family:bambino-bold;color:#fff">The New York Times</h4>
+          </div>
+        </p> -->
+        <h1 class="display-1">
+          {{ .Site.Data.homepage.showcase.title }}
+          <br />
+        </h1>
+          <a href="" class="underline">
+            <span style="letter-spacing: normal;font-size:30px">
+              {{ .Site.Data.homepage.showcase.subtitle | safeHTML }}
+            </span>
+            <svg viewBox="0 0 13 20">
+              <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
+            </svg>
+          </a>
+        <a href="https://randallgoosby.lnk.to/RootsWE" class="btn btn-primary"
+            target="_blank" style="margin-top:2.25em;margin-right:2ch">
+            <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>
+            PRE-ORDER NOW
+            <i class="icon-arrow-right"></i></a>
+        <a href="https://randallgoosby.lnk.to/AdorationWE" class="btn btn-primary"
+            target="_blank" style="margin-top:2.25em">
+            <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>
+            LISTEN NOW
+            <i class="icon-arrow-right"></i></a>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+</section>
+{{ end }}

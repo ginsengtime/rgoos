@@ -1,0 +1,53 @@
+{{ if .Site.Data.homepage.events.enable }}
+<section id="events" class="section section--border-bottom rad-animation-group">
+    <div class="container">
+        <div class="row flex-column flex-md-row rad-fade-down">
+            <div class="col-12 col-sm-6 mt-5 mt-sm-0">
+                <h2 style="margin-bottom:0.5em">{{ .Site.Data.homepage.events.title }}</h2>
+                {{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
+                <div class="event"><a href="{{ .Params.link | absURL }}">
+                        <div class="event__date">{{ .Date | dateFormat "02 Jan 06⠀⠀//⠀⠀15:04" }}</div>
+                        <div class="event__title" style="width:100%">{{ .Title }}</div>
+                        <div class="event__locale">{{ .Params.place }}</div></a>
+                    </div>
+                {{ end }}
+                <a href="{{ .Site.Data.homepage.events.button.URL | absURL }}" class="btn btn-primary"
+                   target="_blank" style="margin:2.25em 0">
+                    <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>
+                    {{ .Site.Data.homepage.events.button.btnText }}
+                    <i class="icon-arrow-right"></i></a>
+            </div>
+            <div class="col-12 col-sm-6" style="align-self: center;">
+                <img class="lozad img-responsive rounded" src="/img/general/events.JPG" style="margin-left:1.5em">
+            </div>
+        </div>
+    </div> 
+
+    {{/*  <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="block">
+                    <h1 class="heading">{{ site.Data.homepage.blog.title | markdownify }}</h1>
+                    {{ $paginator := .Paginate site.RegularPages }}
+                    {{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections) }}
+                    <div class="col-lg-6">
+                        <article class="post wow fadeInLeft" data-wow-duration="300ms" data-wow-delay="300ms">
+                            <div class="post-img">
+                                <img src="{{ .Params.Image | absURL }}" alt="post-image" class="img-responsive">
+                            </div>
+                            <div class="post-content">
+                                <h3><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+                                <p>{{ .Summary }}</p>
+                            </div>
+                        </article>
+                    </div>
+                    {{ end }}
+                    <div class="text-center">
+                        <a href="/post" class="btn btn-default">All Post</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>  */}}
+</section>
+{{ end }}
