@@ -1,4 +1,4 @@
-baseURL = "https://raditian-hugo.radity.com/"
+baseURL = "https://randallgoosby.com/"
 languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
 
@@ -89,4 +89,4 @@ theme = "raditian-free-hugo-theme"
       [params.footer.radity_logo]
         x = "img/general/gg.png"
         _2x = "img/general/gg.png"
-        alt = "Design & Code - Radity"
+        alt = "Designed by Gina Goosby"

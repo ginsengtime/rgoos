@@ -8,5 +8,5 @@ features = ['responsive', 'bootstrap']
 min_version = "0.59.0"
 
 [author]
-  name = "Radity"
-  homepage = "https://radity.com/"
+  name = "Gina Goosby"
+  homepage = "https://newsunsbox.com/"

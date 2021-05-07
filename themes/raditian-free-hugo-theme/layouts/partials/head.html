@@ -215,7 +215,7 @@
     }
 </style>
 
-<script src="{{ "js/flickity.pkgd.min.js" | absURL }}"></script>
+<script src="{{ "js/flickity.pkgd.min.js" | relURL }}"></script>
 {{ range .Site.Params.plugins.css }}
-<link rel="stylesheet" href="{{ .URL | absURL }}"/>
+<link rel="stylesheet" href="{{ .URL | relURL }}"/>
 {{ end }}
