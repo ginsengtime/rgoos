@@ -23,7 +23,7 @@
 </script>
 <!-- End Google Tag Manager -->
 <!-- endinject -->
-<title>{{ .Site.Data.homepage.head.title }}</title>
+<title>{{ if .Title }}{{ .Site.Data.homepage.homepage.head.title }} | {{ .Title }}{{ else }}{{ .Site.Data.homepage.homepage.head.title }}{{ end }}</title>
 <style>
     /* Fade In animation triggering after font load or 3s timeout */
     .rad-fade-in {
