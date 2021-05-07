@@ -88,5 +88,5 @@ theme = "raditian-free-hugo-theme"
       copyright = "© Randall Goosby. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/gg.png"
-        _2x = "img/general/gg.png"
+        _2x = "img/general/gg2x.png"
         alt = "Designed by Gina Goosby"
