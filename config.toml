@@ -76,7 +76,7 @@ theme = "raditian-free-hugo-theme"
 
   sections = ["showcase", "about", "events", "releases", "videos", "gallery", "news", "contact", "newsletter"]
 
-  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+  googleTagManagerID = "G-MZLSRF6M3S" # Google Analytics works with Google Tag Manager but we goin w reg analytics babyyy
 
   main_sections = ["event"]
 
