@@ -15,11 +15,6 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: themes/raditian-free-hugo-theme/content/gal-img
-  label: Gallery Images
-  create: documents
-  match: "**/*"
-- type: directory
   path: content
   label: Pages
   create: all
