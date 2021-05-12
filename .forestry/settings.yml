@@ -19,7 +19,7 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: themes/raditian-free-hugo-theme/static/img
+upload_dir: themes/raditian-free-hugo-theme/static/img/general
 public_path: themes/raditian-free-hugo-theme/static/img
 front_matter_path: ''
 use_front_matter_path: false
