@@ -2,7 +2,7 @@
 <section id="news" class="section rad-animation-group section--border-bottom">
     <div class="container">
         <h2 class="rad-fade-down">{{ .Site.Data.homepage.testimonial.title }}</h2>
-        <div class="row row--padded mb-0 rad-fade-down">
+        <div class="row row--padded mb-5 rad-fade-down">
             {{ range (where site.RegularPages "Type" "press") }}
             {{ if .Param "feature"}}
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
@@ -30,6 +30,14 @@
             {{ end }}
             {{ end }}
         </div>
+        <a
+          href="{{ "/press" | relURL }}"
+          target="_blank"
+          class="btn btn-primary"
+        >
+          <i class="{{ .Site.Data.homepage.about.button.icon }}"></i>
+          {{ .Site.Data.homepage.about.button.btnText }}
+        </a>
     </div>
 </section>
 {{ end }}
