@@ -1,6 +1,5 @@
 +++
 date = 2020-01-18T00:00:00Z
-draft = true
 feature = false
 img = "themes/raditian-free-hugo-theme/static/img/gal-img/gal2.JPG"
 link = "https://www.courant.com/ctnow/music/hc-ctnow-review-four-seasons-hartford-symphony-20200118-kcjveuhsqfeybhmkihvnn7bytu-story.html"

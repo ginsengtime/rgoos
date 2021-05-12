@@ -1,6 +1,5 @@
 +++
 date = 2019-12-11T00:00:00Z
-draft = true
 feature = false
 img = "static/gal-img/gal6.jpg"
 link = "https://oberon481.typepad.com/oberons_grove/2019/12/yca-randall-goosby-merkin-hall.html"
