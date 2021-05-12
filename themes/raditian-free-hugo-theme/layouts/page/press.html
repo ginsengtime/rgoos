@@ -6,9 +6,7 @@
 
   {{ partial "head.html" . }}
 
-  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-  <script>
+  {{/*  <script>
    var grid = document.querySelector('.row');
 
     var msnry = new Masonry(grid, {
@@ -20,7 +18,7 @@
       // layout Masonry after each image loads
       msnry.layout();
     });
-    </script>
+    </script>  */}}
 </head>
 
 <body>
@@ -29,7 +27,7 @@
 
   <section class="section" style="padding-bottom: 3em;">
     <div class="container">
-      <div class="row" >
+      <div class="row" data-masonry='{"percentPosition": true }'>
 
         {{ range (where site.RegularPages "Type" "press") }}
           <div class="col-sm-6 col-lg-4 mb-3 cardcontainer">
