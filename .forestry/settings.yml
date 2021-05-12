@@ -19,10 +19,10 @@ sections:
   label: Pages
   create: all
   match: "*"
-upload_dir: themes/raditian-free-hugo-theme/static/img/general
-public_path: themes/raditian-free-hugo-theme/static/img/general
+upload_dir: static
+public_path: static
 front_matter_path: static/gal-img
-use_front_matter_path: true
+use_front_matter_path: false
 file_template: ":filename:"
 build:
   preview_env:
