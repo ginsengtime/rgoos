@@ -20,3 +20,5 @@ fields:
 - type: boolean
   name: feature
   label: feature
+pages:
+- content/press/decca-signs-violinist-randall-goosby.md
