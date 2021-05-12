@@ -37,6 +37,19 @@
   </section>
 
   {{ partial "footer.html" . }}
+  <script defer>
+
+    // init Masonry
+      var $grid = $('.row').masonry({
+        // options...
+          itemSelector: '.cardcontainer',
+          percentPosition: true,
+      });
+      // layout Masonry after each image loads
+      $grid.imagesLoaded().progress(function () {
+        $grid.masonry('layout');
+      });
+  </script>
   {{ partial "base-foot.html" . }}
 </body>
 
