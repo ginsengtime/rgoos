@@ -1,6 +1,5 @@
 +++
 date = 2020-11-24T00:00:00Z
-draft = true
 feature = false
 img = "themes/raditian-free-hugo-theme/static/img/works/cycles.jpg"
 link = "https://www.broadstreetreview.com/wnwn/randall-goosby-classical-music-cycles-of-my-being-opera-philadelphia#"
