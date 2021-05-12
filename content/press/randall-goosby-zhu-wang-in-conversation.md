@@ -1,6 +1,5 @@
 +++
 date = 2020-10-04T00:00:00Z
-draft = true
 feature = false
 img = "themes/raditian-free-hugo-theme/static/img/works/canvas.png"
 link = "https://artsandculture.google.com/story/randall-goosby-amp-zhu-wang-in-conversation-chineke/5gVRpYQyzZvG5g?hl=en"
