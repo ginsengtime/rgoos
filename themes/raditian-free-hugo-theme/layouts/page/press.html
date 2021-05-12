@@ -6,19 +6,7 @@
 
   {{ partial "head.html" . }}
 
-  <script defer>
-   var grid = document.querySelector('.row');
 
-    var msnry = new Masonry(grid, {
-      itemSelector: '.cardcontainer',
-      percentPosition: true
-    });
-
-    imagesLoaded(grid).on('progress', function () {
-      // layout Masonry after each image loads
-      msnry.layout();
-    });
-    </script>
 </head>
 
 <body>
