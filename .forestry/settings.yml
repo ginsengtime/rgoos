@@ -20,7 +20,7 @@ sections:
   create: all
   match: "*"
 upload_dir: themes/raditian-free-hugo-theme/static/img/general
-public_path: themes/raditian-free-hugo-theme/static/img
+public_path: themes/raditian-free-hugo-theme/static/img/general
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
