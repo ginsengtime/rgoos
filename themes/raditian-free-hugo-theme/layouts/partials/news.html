@@ -5,7 +5,7 @@
     <div class="container">
         <h2 class="rad-fade-down">{{ $data.testimonial.title }}</h2>
         <div class="row row--padded mb-5 rad-fade-down">
-            {{ range (where site.RegularPages "Type" "press") }}
+            {{ range (where .Site.RegularPages "Type" "press") }}
             {{ if .Param "feature"}}
             <div class="col-12 col-md-4 mb-5 mb-md-0 testimonial">
                 <i class="icon-quote"></i>
