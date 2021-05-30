@@ -1,9 +1,11 @@
-{{ if .Site.Data.homepage.events.enable }}
+{{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+
+{{ if $data.events.enable }}
 <section id="events" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row flex-column flex-md-row rad-fade-down">
             <div class="col-12 col-sm-6 mt-5 mt-sm-0">
-                <h2 style="margin-bottom:0.5em">{{ .Site.Data.homepage.events.title }}</h2>
+                <h2 style="margin-bottom:0.5em">{{ $data.events.title }}</h2>
                 {{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
                 <div class="event"><a href="{{ .Params.link | relURL }}">
                         <div class="event__date">{{ .Date | dateFormat "02 Jan" }}
@@ -17,10 +19,10 @@
                         <div class="event__locale">{{ .Params.place }}</div></a>
                     </div>
                     {{ end }}
-                <a href="{{ .Site.Data.homepage.events.button.URL | relURL }}" class="btn btn-primary"
+                <a href="{{ $data.events.button.URL | relURL }}" class="btn btn-primary"
                 target="_blank" style="margin:2.25em 0">
-                <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>
-                {{ .Site.Data.homepage.events.button.btnText }}
+                <i class="{{ $data.event.button.icon }}"></i>
+                {{ $data.events.button.btnText }}
                     <i class="icon-arrow-right"></i></a>
                 </div>
                 <div class="col-12 col-sm-6" style="align-self: center;">

@@ -1,7 +1,9 @@
-{{ if .Site.Data.homepage.testimonial.enable }}
+{{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+
+{{ if $data.testimonial.enable }}
 <section id="news" class="section rad-animation-group section--border-bottom">
     <div class="container">
-        <h2 class="rad-fade-down">{{ .Site.Data.homepage.testimonial.title }}</h2>
+        <h2 class="rad-fade-down">{{ $data.testimonial.title }}</h2>
         <div class="row row--padded mb-5 rad-fade-down">
             {{ range (where site.RegularPages "Type" "press") }}
             {{ if .Param "feature"}}
@@ -35,8 +37,8 @@
           target="_blank"
           class="btn btn-primary"
         >
-          <i class="{{ .Site.Data.homepage.about.button.icon }}"></i>
-          {{ .Site.Data.homepage.about.button.btnText }}
+          <i class="{{ $data.about.button.icon }}"></i>
+          {{ $data.about.button.btnText }}
         </a>
     </div>
 </section>

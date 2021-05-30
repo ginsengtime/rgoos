@@ -1,12 +1,12 @@
 # homepage
 homepage:
   head:
-    title: "Randall Goosby"
+    title: "ランドル・グーズビー"
 # showcase
 showcase:
   enable: true
   title: "ROOTS"
-  subtitle: "Coming 25<sup>th</sup> June 2021"
+  subtitle: "２０２１年０６月２５日発売"
   description: "\"He exerted a masterly level of control and lavished an exquisite tone on Ysaÿe’s unaccompanied Sonata No. 3. ...his performance won him a deserved standing ovation for its sheer virtuosity.\""
   image:
     alt: "Showcase keyboard and mouse image"
@@ -37,40 +37,25 @@ showcase:
 # about
 about:
   enable: true
-  title: "About"
+  title: "プロフィール"
   content: '<p class="lead">
-    Violinist Randall Mitsuo Goosby (24), has appeared as guest soloist with numerous orchestras throughout the United States since winning First Prize at the Annual Sphinx Concerto Competition in 2010 at age 13. Shortly after winning the Sphinx Competition, Randall was invited to appear as part of the New York Philharmonic’s prestigious Young People’s Concert series at Avery Fisher Hall, Lincoln Center.</p>
-   <p class="lead"> As a soloist, Randall has performed widely throughout the USA, having appeared with the Cleveland Orchestra, New York Philharmonic, and the New World Symphony Orchestra, among others. He has also given recitals at such venues as the Kennedy Center (Washington D.C.), Kaufman Center (New York City),  and Wigmore Hall (London).
-    </p>'
+    ランドル・グーズビーは7歳でバイオリンを始め、9歳でフロリダのジャクソンビル交響楽団と協奏曲デビューし、13歳にしてスフィクンクスコンクールのジュニア部門で最年少にして優勝を果たした。スフィンクスからはアイザック・スターン賞を受賞しており、同団体によるアーティスト育成プロフラムの一環として行われるカーネギーホールでのコンサートには2回出演しており、グーズビーがカーネギーホールデビューで演奏したイザイ無伴奏第三番についてニューヨーク・タイムズ紙は『達成されたコントロールと絶妙な音色を披露した…彼の演奏は比類なき妙技によりスタンディングオベーションを得た。』と称賛している。</p>'
   button:
     icon: "icon-arrow-right"
-    btnText: "⠀Read More"
-    URL: "/bio"
+    btnText: "⠀もっと"
+    URL: "/jp/bio"
   image:
     x: "../img/who-am-i/goos.JPG"
     _2x: "../img/who-am-i/goos.JPG"
 
-# education
-education:
-  enable: false
-  title: "Education"
-  items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
-
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
-
 # experience
 events:
   enable: true
-  title: "Events"
+  title: "スケジュール"
   description: ""
   button:
     icon: "icon-linkedin-fill"
-    btnText: "More"
+    btnText: "もっと"
     URL: "/events"
   # button2:
   #   icon: "icon-profile-fill"
@@ -84,7 +69,7 @@ gallery:
 
 # Client & Work
 client_and_work:
-  title: "Featured Videos"
+  title: "メディア"
   enable: true
 
   works:
@@ -116,7 +101,7 @@ client_and_work:
 # testimonial
 testimonial:
   enable: true
-  title: "In the Press"
+  title: "ニュース"
   items:
     - name: "Arts ATL"
       position: ""
@@ -142,7 +127,7 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "Contact"
+  title: "コンタクト"
   form:
     method: "POST"
     action: "https://forms.un-static.com/forms/d37a28050df4592fe74c29b41432bf5cac888c07"

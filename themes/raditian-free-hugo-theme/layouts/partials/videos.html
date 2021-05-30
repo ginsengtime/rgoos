@@ -1,11 +1,13 @@
-{{ if .Site.Data.homepage.client_and_work.enable }}
+{{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+
+{{ if $data.client_and_work.enable }}
 <section id="portfolio" class="section section--border-bottom">
   <div class="container">
     <h2 class=" rad-animation-group rad-fade-down">
-      {{ .Site.Data.homepage.client_and_work.title }}
+      {{ $data.client_and_work.title }}
     </h2>
     
-    {{ range $index, $element := .Site.Data.homepage.client_and_work.works }}
+    {{ range $index, $element := $data.client_and_work.works }}
     <div
       class="row row--padded rad-animation-group rad-fade-down {{ if .is_even }}flex-column-reverse flex-md-row{{ end }}"
     >

@@ -1,8 +1,13 @@
+{{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
 <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-
+{{ if (eq .Site.Language.Lang "jp")}}
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@400;700&display=swap" rel="stylesheet">
+{{end}}
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id={{ .Site.Params.googleTagManagerID }}"></script>
@@ -14,7 +19,7 @@
   gtag('config', '{{ .Site.Params.googleTagManagerID }}');
 </script>
 <!-- endinject -->
-<title>{{ if .Title }}{{ .Site.Data.homepage.homepage.head.title }} | {{ .Title }}{{ else }}{{ .Site.Data.homepage.homepage.head.title }}{{ end }}</title>
+<title>{{ if .Title }}{{ $data.homepage.head.title }} | {{ .Title }}{{ else }}{{ $data.homepage.head.title }}{{ end }}</title>
 <style>
     /* Fade In animation triggering after font load or 3s timeout */
     .rad-fade-in {

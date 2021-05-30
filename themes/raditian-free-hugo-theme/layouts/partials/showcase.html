@@ -1,30 +1,32 @@
-{{ if .Site.Data.homepage.showcase.enable }}
+{{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+
+{{ if $data.showcase.enable }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="margin-bottom: 2em;background-size:cover;height:100vh; background-repeat: no-repeat;background-attachment:fixed">
   <!-- <div class="rad-showcase__bg">
     <img
       class="lozad img-responsive"
       src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-      data-src="{{ .Site.Data.homepage.showcase.image.x | relURL }}"
-      data-srcset="{{ .Site.Data.homepage.showcase.image.x | relURL }} 1x, {{ .Site.Data.homepage.showcase.image._2x | relURL }} 2x"
-      alt="{{ .Site.Data.homepage.showcase.image.alt }}"
+      data-src="{{ $data.showcase.image.x | relURL }}"
+      data-srcset="{{ $data.showcase.image.x | relURL }} 1x, {{ $data.showcase.image._2x | relURL }} 2x"
+      alt="{{ $data.showcase.image.alt }}"
     />
   </div> -->
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
         <!-- <p class="lead" style="margin-top: 2em;color:#fff">
-          {{ .Site.Data.homepage.showcase.description | safeHTML }}
+          {{ $data.showcase.description | safeHTML }}
           <div class="testimonial__author-info">
             <h4 style="font-family:bambino-bold;color:#fff">The New York Times</h4>
           </div>
         </p> -->
         <h1 class="display-1">
-          {{ .Site.Data.homepage.showcase.title }}
+          {{ $data.showcase.title }}
           <br />
         </h1>
           <a href="{{ "/press/decca" | relURL }}" class="underline">
             <span style="letter-spacing: normal;font-size:30px;line-height:1.5em">
-              {{ .Site.Data.homepage.showcase.subtitle | safeHTML }}
+              {{ $data.showcase.subtitle | safeHTML }}
             </span>
             <svg viewBox="0 0 13 20">
               <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
@@ -32,13 +34,13 @@
           </a><br>
         <a href="https://randallgoosby.lnk.to/RootsWE" class="btn btn-primary"
             target="_blank" style="margin-top:2.25em;margin-right:2ch">
-            <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>
-            PRE-ORDER NOW
+            <i class="{{ $data.event.button.icon }}"></i>
+            {{i18n "pre-order"}}
             <i class="icon-arrow-right"></i></a>
         <a href="https://randallgoosby.lnk.to/AdorationWE" class="btn btn-primary"
             target="_blank" style="margin-top:2.25em">
-            <i class="{{ .Site.Data.homepage.event.button.icon }}"></i>
-            LISTEN NOW
+            <i class="{{ $data.event.button.icon }}"></i>
+            {{i18n "listen-now"}}
             <i class="icon-arrow-right"></i></a>
       </div>
     </div>

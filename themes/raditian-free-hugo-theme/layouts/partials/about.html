@@ -1,4 +1,6 @@
-{{ if .Site.Data.homepage.about.enable }}
+{{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+
+{{ if $data.about.enable }}
 <section class="section rad-animation-group pb-0" id="about">
   <div class="container rad-fade-down" style="margin-top:2em">
     <div class="row d-flex flex-column-reverse flex-md-row">
@@ -6,23 +8,23 @@
         <img
           class="lozad img-responsive rounded"
           src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
-          data-src="{{ .Site.Data.homepage.about.image.x | relURL }}"
-          data-srcset="{{ .Site.Data.homepage.about.image.x | relURL }} 1x, {{ .Site.Data.homepage.about.image._2x | relURL }} 2x"
+          data-src="{{ $data.about.image.x | relURL }}"
+          data-srcset="{{ $data.about.image.x | relURL }} 1x, {{ $data.about.image._2x | relURL }} 2x"
           alt="Profile Picture"
         />
       </div>
       <div class="col-12 col-md-6 my-auto my-auto">
-        <h2>{{ .Site.Data.homepage.about.title }}</h2>
+        <h2>{{ $data.about.title }}</h2>
         <p class="lead">
-          {{ .Site.Data.homepage.about.content | safeHTML }}
+          {{ $data.about.content | safeHTML }}
         </p>
         <a
-          href="{{ .Site.Data.homepage.about.button.URL | relURL }}"
+          href="{{ $data.about.button.URL | relURL }}"
           target="_blank"
           class="btn btn-primary"
         >
-          <i class="{{ .Site.Data.homepage.about.button.icon }}"></i>
-          {{ .Site.Data.homepage.about.button.btnText }}
+          <i class="{{ $data.about.button.icon }}"></i>
+          {{ $data.about.button.btnText }}
         </a>
       </div>
     </div>

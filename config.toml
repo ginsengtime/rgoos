@@ -1,6 +1,6 @@
 baseURL = "https://randallgoosby.com/"
-languageCode = "en-us"
 theme = "raditian-free-hugo-theme"
+DefaultContentLanguage = "en"
 
 # Plugins
 [params.plugins]
@@ -29,47 +29,7 @@ theme = "raditian-free-hugo-theme"
 
 
 # navigation
-[menu]
 
-  [[menu.header]]
-  name = "About"
-  URL = "/#about"
-  weight = 2
-
-  [[menu.header]]
-  name = "Events"
-  URL = "/#events"
-  weight = 3
-
-  [[menu.header]]
-  name = "News"
-  URL = "/#news"
-  weight = 4
-
-  [[menu.header]]
-  name = "Contact"
-  URL = "/#contact"
-  weight = 5
-
-  [[menu.footer]]
-  name = "About"
-  URL = "/bio"
-  weight = 2
-
-  [[menu.footer]]
-  name = "Events"
-  URL = "/events"
-  weight = 3
-
-  [[menu.footer]]
-  name = "News"
-  URL = "/press"
-  weight = 4
-
-  [[menu.footer]]
-  name = "Contact"
-  URL = "/contact"
-  weight = 5
 
 
 [params]
@@ -80,13 +40,114 @@ theme = "raditian-free-hugo-theme"
 
   main_sections = ["event"]
 
-  [params.logo]
-    text1 = "RANDALL"
-    text2 = "   GOOSBY"
 
   [params.footer]
-      copyright = "© Randall Goosby. All rights reserved."
       [params.footer.radity_logo]
         x = "img/general/gg.png"
         _2x = "img/general/gg.png"
         alt = "Gina Goosby"
+
+[Languages]
+[Languages.en]
+languageName = "en"
+languageCode = "en-us"
+weight = 1
+copyright = "© Randall Goosby. All rights reserved."
+  
+[Languages.en.params.logo]
+  text1 = "RANDALL"
+  text2 = "   GOOSBY"
+
+[Languages.en.menu]
+  [[Languages.en.menu.header]]
+  name = "About"
+  URL = "/#about"
+  weight = 2
+
+  [[Languages.en.menu.header]]
+  name = "Events"
+  URL = "/#events"
+  weight = 3
+
+  [[Languages.en.menu.header]]
+  name = "News"
+  URL = "/#news"
+  weight = 4
+
+  [[Languages.en.menu.header]]
+  name = "Contact"
+  URL = "/#contact"
+  weight = 5
+
+  [[Languages.en.menu.footer]]
+  name = "About"
+  URL = "/bio"
+  weight = 2
+
+  [[Languages.en.menu.footer]]
+  name = "Events"
+  URL = "/events"
+  weight = 3
+
+  [[Languages.en.menu.footer]]
+  name = "News"
+  URL = "/press"
+  weight = 4
+
+  [[Languages.en.menu.footer]]
+  name = "Contact"
+  URL = "/contact"
+  weight = 5
+  
+[Languages.jp]
+languageName = "jp"
+languageCode = "ja-jp"
+weight = 2
+copyright = "© Randall Goosby. All rights reserved."
+
+[Languages.jp.params.logo]
+  text1 = "ランドル"
+  text2 = "　グーズビー"
+
+# navigation
+[Languages.jp.menu]
+
+  [[Languages.jp.menu.header]]
+  name = "プロフィール"
+  URL = "#about"
+  weight = 2
+
+  [[Languages.jp.menu.header]]
+  name = "スケジュール"
+  URL = "#events"
+  weight = 3
+
+  [[Languages.jp.menu.header]]
+  name = "ニュース"
+  URL = "#news"
+  weight = 4
+
+  [[Languages.jp.menu.header]]
+  name = "コンタクト"
+  URL = "#contact"
+  weight = 5
+
+  [[Languages.jp.menu.footer]]
+  name = "プロフィール"
+  URL = "bio"
+  weight = 2
+
+  [[Languages.jp.menu.footer]]
+  name = "スケジュール"
+  URL = "events"
+  weight = 3
+
+  [[Languages.jp.menu.footer]]
+  name = "ニュース"
+  URL = "press"
+  weight = 4
+
+  [[Languages.jp.menu.footer]]
+  name = "コンタクト"
+  URL = "contact"
+  weight = 5
