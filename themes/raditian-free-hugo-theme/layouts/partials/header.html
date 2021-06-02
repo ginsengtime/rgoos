@@ -43,6 +43,24 @@
           <i class="ri-{{ .icon }}-fill"></i>
         </a>
         {{ end }}
+        <div style="margin:0 1em;text-align:center">
+          {{ if .Site.IsMultiLingual }}
+              {{ range .Site.Languages }}
+                  {{ if eq . $.Site.Language }}
+                      <li style="list-style-type: none;border-bottom:1px white solid">
+                          <a href="#" style='font-size:12px' class="active language">{{ .LanguageName }}</a>
+                      </li>
+                  {{ else }}
+                      {{ range $.Translations }}
+                          <li style="list-style-type: none;">
+                              <a href="{{ .Permalink }}" style='font-size:12px' class="">{{ .Language.LanguageName }}</a>
+                          </li>
+                      {{ end }}
+                  {{ end }}
+              {{ end }}
+          {{ end }}
+        </div>
+
       </div>
     </nav>
   </div>

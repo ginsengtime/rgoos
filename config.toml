@@ -49,7 +49,7 @@ DefaultContentLanguage = "en"
 
 [Languages]
 [Languages.en]
-languageName = "en"
+languageName = "ENGLISH"
 languageCode = "en-us"
 weight = 1
 copyright = "© Randall Goosby. All rights reserved."
@@ -100,7 +100,7 @@ copyright = "© Randall Goosby. All rights reserved."
   weight = 5
   
 [Languages.jp]
-languageName = "jp"
+languageName = "日本語"
 languageCode = "ja-jp"
 weight = 2
 copyright = "© Randall Goosby. All rights reserved."
