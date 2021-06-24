@@ -5,53 +5,26 @@
     <div class="container">
         <div class="contact">
             <div class="row pt-2">
-                <div class="col-12 col-lg-6">
-                    <h2 style="color:#333">{{ $data.contact.title }}</h2>
-                    <form style="color:#333" action="{{ $data.contact.form.action }}" method="{{ $data.contact.form.method }}">
-                        <div class="row">
-                            <div class="col-12 col-sm-6">
-                                <label for="NAME">Full Name:</label>
-                                <input type="text" name="NAME" id="full_name"
-                                       placeholder="{{ $data.contact.form.full_name }}"/>
-                            </div>
-                            <div class="col-12 col-sm-6">
-                                <label for="EMAIL">Email Address:</label>
-                                <input type="text" name="EMAIL" id="email"
-                                       placeholder="{{ $data.contact.form.email }}"/>
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col-12">
-                                <label for="MSG">Message:</label>
-                                <textarea name="MSG" id="message"
-                                          cols="30" rows="3" placeholder="{{ $data.contact.form.message }}"></textarea>
-                            </div>
-                        </div>
-                        <div class="row pt-4">
-                            <div class="col-12">
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="{{ $data.contact.button.icon }}"></i>
-                                    {{ $data.contact.button.btnText }}
-                                </button>
-                            </div>
-                        </div>
-                    </form>
+                <h2 style="color:#333;flex-basis:100%">{{ $data.contact.title }}</h2>
+                <div class="col-12 col-lg-6 contact__info">
+                    <h3 style="color:#333">North and South America</h3>
+                    <h4>{{ $data.contact.US.address.title | safeHTML }}</h4>
+                    <span>{{ $data.contact.US.address.address | safeHTML }}</span><br>
+                    <span>{{ $data.contact.US.email.email | safeHTML }}</span><br>
+                    <span>{{ $data.contact.US.phone.number }}</span>
+                    
                 </div>
                 <div class="col-12 col-lg-6 contact__info">
-                  <h3 style="color:#333">United States</h3>
-                    <h4>{{ $data.contact.US.phone.title }}</h4>
-                    <span>{{ $data.contact.US.phone.number }}</span>
-                    <h4>{{ $data.contact.US.email.title }}</h4>
-                    <span>{{ $data.contact.US.email.email | safeHTML }}</span>
-                    <h4>{{ $data.contact.US.address.title }}</h4>
-                    <span>{{ $data.contact.US.address.address | safeHTML }}</span>
-                  <h3 style="color:#333;margin-top:.5em">U.K. and Europe</h3>
-                    <h4>{{ $data.contact.UK.phone.title }}</h4>
-                    <span>{{ $data.contact.UK.phone.number }}</span>
-                    <h4>{{ $data.contact.UK.email.title }}</h4>
-                    <span>{{ $data.contact.UK.email.email | safeHTML }}</span>
-                    <h4>{{ $data.contact.UK.address.title }}</h4>
-                    <span>{{ $data.contact.UK.address.address | safeHTML }}</span>
+                  <h3 style="color:#333">Europe, Asia, and Australasia</h3>
+                  <h4> Lydia Connolly<br>Director, Head of Artist Management<br>Harrison/Parrott</h4>
+                  <span> Office 409<br>26-28 Hammersmith Grove<br>London W6 7BA<br>+ 44 203 725 9118 </span><br>
+                  <span> <a href="mailto:Lydia.Connolly@harrisonparrott.co.uk">Lydia.Connolly@harrisonparrott.co.uk</a><br><a href="http://www.harrisonparrott.com">www.harrisonparrott.com</a>
+                  </span>
+                                    
+                  <h4> Katie Cardell-Oliver<br>Associate Director, Artist Management<br>Harrison/Parrott </h4>
+                  <span> Office 409<br>26-28 Hammersmith Grove<br>London W6 7BA<br>+ 44 203 725 9118 </span><br>
+                  <span> <a href="mailto:kco@harrisonparrott.co.uk">kco@harrisonparrott.co.uk</a><br><a href="http://www.harrisonparrott.com">www.harrisonparrott.com</a>
+                  </span>
                 </div>
             </div>
         </div>

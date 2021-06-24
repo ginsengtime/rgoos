@@ -127,7 +127,7 @@ testimonial:
 # contact
 contact:
   enable: true
-  title: "コンタクト"
+  title: "マネジャー"
   form:
     method: "POST"
     action: "https://forms.un-static.com/forms/d37a28050df4592fe74c29b41432bf5cac888c07"
