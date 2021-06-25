@@ -6,8 +6,10 @@ homepage:
 showcase:
   enable: true
   title: "ROOTS"
-  subtitle: "Coming 25<sup>th</sup> June 2021"
+  subtitle: "OUT NOW"
   description: "\"He exerted a masterly level of control and lavished an exquisite tone on Ysaÿe’s unaccompanied Sonata No. 3. ...his performance won him a deserved standing ovation for its sheer virtuosity.\""
+  vidthumb: "../img/works/shelterislandthumb.jpg"
+  vidURL: https://www.youtube.com/watch?v=xu4Pvmddsp0
   image:
     alt: "Showcase keyboard and mouse image"
     x: "../img/showcase/roots-base.jpg"
@@ -32,6 +34,9 @@ showcase:
 
     - icon: "spotify"
       URL: "https://open.spotify.com/artist/1wgIWZ93QjeVdMO6k6Cy6K"
+
+    - icon: "youtube"
+      URL: https://www.youtube.com/channel/UCqFFLM28KtzV9U0-bvX1W6A
 
 
 # about

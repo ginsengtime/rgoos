@@ -1,8 +1,8 @@
 listen-now:
   other: LISTEN NOW
 
-pre-order:
-  other: PRE-ORDER
+order:
+  other: ORDER CD
 
 home:
   other: HOME
