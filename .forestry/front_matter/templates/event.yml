@@ -8,6 +8,24 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: date2
+  type: datetime
+  label: date2
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: date3
+  type: datetime
+  label: date3
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: text
   name: place
   label: place
@@ -18,6 +36,10 @@ fields:
   name: type
   label: type
 pages:
+- content/event/ashmont-hill-chamber-music.md
+- content/event/clarion-concerts.md
+- content/event/kansas-city-symphony.md
+- content/event/kaufman-music-center.md
 - content/event/los-angeles-philharmonic-with-gustavo-dudamel.md
 - content/event/pasadena-symphony-and-pops.md
 - content/event/the-perlman-music-program.md
