@@ -1,7 +1,9 @@
 +++
 date = 2022-05-10T23:30:00Z
+date2 = ""
+date3 = ""
 link = "https://philharmonia.co.uk/whats-on/220510-philharmonia-orchestra-violin-virtuosity/"
-place = "Canterbury, UK"
-title = " Violin Virtuosity with Philharmonia"
+place = "Canterbury, United Kingdom"
+title = " Violin Virtuosity with the Philharmonia"
 
 +++
