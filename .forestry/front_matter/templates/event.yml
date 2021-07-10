@@ -8,6 +8,15 @@ fields:
 - type: datetime
   name: date
   label: date
+- name: date2
+  type: datetime
+  label: date2
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
 - type: text
   name: place
   label: place
