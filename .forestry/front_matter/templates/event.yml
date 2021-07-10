@@ -18,6 +18,7 @@ fields:
   name: type
   label: type
 pages:
+- content/event/kaufman-music-center.md
 - content/event/los-angeles-philharmonic-with-gustavo-dudamel.md
 - content/event/pasadena-symphony-and-pops.md
 - content/event/the-perlman-music-program.md
