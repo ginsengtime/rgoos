@@ -39,8 +39,10 @@ about:
   enable: true
   title: "About"
   content: '<p class="lead">
-    Violinist Randall Mitsuo Goosby (24), has appeared as guest soloist with numerous orchestras throughout the United States since winning First Prize at the Annual Sphinx Concerto Competition in 2010 at age 13. Shortly after winning the Sphinx Competition, Randall was invited to appear as part of the New York Philharmonic’s prestigious Young People’s Concert series at Avery Fisher Hall, Lincoln Center.</p>
-   <p class="lead"> As a soloist, Randall has performed widely throughout the USA, having appeared with the Cleveland Orchestra, New York Philharmonic, and the New World Symphony Orchestra, among others. He has also given recitals at such venues as the Kennedy Center (Washington D.C.), Kaufman Center (New York City),  and Wigmore Hall (London).
+    “For me, personally, music has been a way to inspire others” – Randall Goosby’s own words sum up perfectly his commitment to being an artist who makes a difference.</p>
+
+
+   <p class="lead">Signed exclusively to Decca Classics in 2020 at the age of 24, American violinist Randall Goosby is acclaimed for the sensitivity and intensity of his musicianship alongside his determination to make music more inclusive and accessible, as well as bringing the music of under-represented composers to light.
     </p>'
   button:
     icon: "icon-arrow-right"
