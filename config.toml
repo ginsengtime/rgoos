@@ -96,7 +96,7 @@ copyright = "© Randall Goosby. All rights reserved."
 
   [[Languages.en.menu.footer]]
   name = "Contact"
-  URL = "/contact"
+  URL = "/#contact"
   weight = 5
   
 [Languages.jp]
