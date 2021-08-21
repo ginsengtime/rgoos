@@ -9,6 +9,6 @@ summary: His playing was transcendental. To borrow a phrase from C.S. Lewis, to 
   than real people. Whether delivering searing long notes or intricate speed runs,
   each note of Goosby’s performance stood alone as an individual work of art.
 link: https://www.artsatl.org/guest-conductor-gemma-new-violinist-randall-goosby-electrify-symphony-hall/
-feature: true
+feature: false
 
 ---
