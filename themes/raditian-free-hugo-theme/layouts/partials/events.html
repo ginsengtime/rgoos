@@ -1,4 +1,5 @@
 {{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+{{$count := 0}}
 
 {{ if $data.events.enable }}
 <section id="events" class="section section--border-bottom rad-animation-group">
@@ -6,8 +7,11 @@
         <div class="row flex-column flex-md-row rad-fade-down">
             <div class="col-12 col-sm-6 mt-5 mt-sm-0">
                 <h2 style="margin-bottom:0.5em">{{ $data.events.title }}</h2>
-                {{ range first 4 (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
+                {{ range (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
+                {{ if le $count 3}}
+                {{if ge .Date.Unix now.Unix }}
                 <div class="event"><a href="{{ .Params.link | relURL }}">
+                    {{ $count = (add $count 1)}}
                         <div class="event__date">{{ .Date | dateFormat "02 Jan" }}
                             {{if .Params.date3}}
                                 , {{ .Params.date2 | dateFormat "02 Jan" }}, {{ .Params.date3 | dateFormat "02 Jan" }}
@@ -18,6 +22,8 @@
                         <div class="event__title" style="width:100%">{{ .Title }}</div>
                         <div class="event__locale">{{ .Params.place }}</div></a>
                     </div>
+                    {{ end }}
+                    {{ end }}
                     {{ end }}
                 <a href="{{ $data.events.button.URL | relURL }}" class="btn btn-primary"
                 target="_blank" style="margin:2.25em 0">

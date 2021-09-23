@@ -39,6 +39,7 @@
               <table cellpadding="0" cellspacing="0" border="0">
                 <tbody>
                 {{ range (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
+                  {{if ge .Date.Unix now.Unix }}
                   <tr>
                     <td>{{ .Date | dateFormat "02 Jan" }}
                     {{if .Params.date3}}
@@ -52,6 +53,7 @@
                     <td><a href="{{ .Params.link | relURL }}">{{ .Title }}</a> </td>
                     <td>{{ .Params.place }}</td>
                   </tr>
+                  {{ end }}
                   {{ end }}
                 </tbody>
               </table>
