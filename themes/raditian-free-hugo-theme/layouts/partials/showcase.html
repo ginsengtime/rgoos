@@ -1,4 +1,9 @@
-{{$data := cond (eq .Site.Language.Lang "jp") .Site.Data.homepagejp .Site.Data.homepage }}
+{{ $data := .Site.Data.homepage }}
+{{if (eq .Site.Language.Lang "jp")}}
+  {{$data = .Site.Data.homepagejp }}
+{{ else if (eq .Site.Language.Lang "kr")}}
+  {{$data = .Site.Data.homepagekr }}
+{{end}}
 
 {{ if $data.showcase.enable }}
 <section class="rad-showcase rad-showcase--index rad-animation-group rad-fade-down" style="margin-bottom: 2em;background-size:cover;height:100vh; background-repeat: no-repeat;background-attachment:fixed">

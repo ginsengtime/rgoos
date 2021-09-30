@@ -17,7 +17,7 @@
     <div class="container">
       <div class="row" data-masonry='{"percentPosition": true }'>
 
-        {{ range (where site.RegularPages "Type" "press") }}
+        {{ range (where .Site.RegularPages "Type" "press") }}
           <div class="col-sm-6 col-lg-4 mb-3 cardcontainer">
             <div class="card">
               <img class="card-img-top" src="{{ .Params.img | absURL }}" alt="Card image cap">

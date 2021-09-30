@@ -1,0 +1,170 @@
+# homepage
+homepage:
+  head:
+    title: "RANDALL GOOSBY"
+# showcase
+showcase:
+  enable: true
+  title: "ROOTS"
+  subtitle: "発売中"
+  description: "\"He exerted a masterly level of control and lavished an exquisite tone on Ysaÿe’s unaccompanied Sonata No. 3. ...his performance won him a deserved standing ovation for its sheer virtuosity.\""
+  vidthumb: "../img/works/shelterislandthumb.jpg"
+  vidURL: https://www.youtube.com/watch?v=xu4Pvmddsp0
+  image:
+    alt: "Showcase keyboard and mouse image"
+    x: "../img/showcase/roots-base.jpg"
+    _2x: "../img/showcase/roots-base.jpg"
+  imageMobile:
+    alt: "Showcase keyboard and mouse image"
+    x: "../img/showcase/roots-base-mobile.jpg"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact"
+    URL: "#contact"
+
+  socialLinks:
+    - icon: "instagram"
+      URL: "https://www.instagram.com/itsgooz/"
+
+    - icon: "facebook"
+      URL: "https://www.facebook.com/rmgviolin/"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/RandallGoosby"
+
+    - icon: "spotify"
+      URL: "https://open.spotify.com/artist/1wgIWZ93QjeVdMO6k6Cy6K"
+
+
+# about
+about:
+  enable: true
+  title: "ABOUT"
+  content: '<p class="lead">
+    “제게 있어 음악은 다른 사람들을 고양시키는 방법입니다.” 랜들 구스비가 직접 이야기한 이 문장은 탁월한 아티스트가 되기 위해 전념해 온 그의 삶을 완벽하게 대변해 주고 있다.</p>
+    <p class="lead">2020년 24세의 나이로 데카 레코드와 전속계약을 맺은 미국의 바이올리니스트 랜들 구스비는 섬세하면서도 강렬한 음악성의 소유자로 클래식을 보다 포용력 있고 접근하기 쉬운 음악으로 만들기 위해 노력하는 한편, 잘 알려지지 않은 작곡가들의 음악을 부단히 소개하면서 평단의 찬사를 한 몸에 받고 있다.</p>'
+  button:
+    icon: "icon-arrow-right"
+    btnText: "READ MORE"
+    URL: "/kr/bio"
+  image:
+    x: "../img/who-am-i/goos.JPG"
+    _2x: "../img/who-am-i/goos.JPG"
+
+# experience
+events:
+  enable: true
+  title: "CONCERTS"
+  description: ""
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "MORE"
+    URL: "/events"
+  # button2:
+  #   icon: "icon-profile-fill"
+  #   btnText: "Download My Resume"
+  #   URL: "#"
+
+#gallery
+gallery:
+  enable: true
+  title: "Gallery"
+
+# Client & Work
+client_and_work:
+  title: "MEDIA"
+  enable: true
+
+  works:
+    - title: "Randall Goosby and Zhu Wang | Grant Still: Suite for Violin and Piano, III. Gamin"
+      description: "Young Concert Artists Series <br />Merkin Concert Hall at Kaufman Music Center <br />December 11, 2019"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "../img/works/vid1thumb.jpg"
+        _2x: "../img/works/vid1thumb.jpg"
+        URL: https://youtu.be/37iDfyPnzQs
+      is_even: true
+
+    - title: "Beethoven Violin Sonata no. 9 , Op. 47 - The 'Bridgetower' Sonata"
+      description: "Commissioned by the Chineke! Foundation, in partnership with Google Arts and Culture, to commemorate the 250th anniversary of the birth of Ludwig van Beethoven.<br />December 2020"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Case Study"
+        URL: "#"
+      image:
+        x: "../img/works/canvas.png"
+        _2x: "../img/works/canvas.png"
+        URL: https://www.youtube.com/watch?v=4wSjpNKzr4s
+      is_even: false
+
+
+# testimonial
+testimonial:
+  enable: true
+  title: "NEWS"
+  items:
+    - name: "Arts ATL"
+      position: ""
+      content: "His playing was transcendental. To borrow a phrase from C.S. Lewis, to listen to Goosby was to be surprised by joy. ... Goosby's tone walked a perfect balance between silky smooth and gutturally abrasive, conveying the piece’s tumultuous cavalcade of emotions with the expert precision normally associated with folk legends rather than real people. Whether delivering searing long notes or intricate speed runs, each note of Goosby’s performance stood alone as an individual work of art."
+      url: https://www.artsatl.org/guest-conductor-gemma-new-violinist-randall-goosby-electrify-symphony-hall/
+      image:
+        x: ""
+        _2x: ""
+    - name: "Jonathan Peters"
+      position: "Textic, CEO"
+      content: "Whether you or your loved one is encountering the natural decrease in mobility that occurs with the passing of time, or deals with an illness-related lack of physical agility, a stair lift can be the ideal way to put you in charge of your home again. Regardless of the shape or make of your living accommodation."
+      image:
+        x: "../img/testimonials/jonathan-peters.jpg"
+        _2x: "../img/testimonials/jonathan-peters@2x.jpg"
+
+    - name: "Antonio Willis"
+      position: "Cyberse, CEO"
+      content: "In this digital generation where information can be easily obtained within seconds, business cards still have retained their importance in the achievement of increased business exposure and business sales. If your business already has a bunch of printed cards distributed to a number of potential customers and yet."
+      image:
+        x: "../img/testimonials/antonio-willis.jpg"
+        _2x: "../img/testimonials/antonio-willis@2x.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "CONTACT"
+  form:
+    method: "POST"
+    action: "https://forms.un-static.com/forms/d37a28050df4592fe74c29b41432bf5cac888c07"
+    full_name: "Full Name"
+    email: "Email Address"
+    message: "Type Your Message Here"
+  US:
+    phone:
+      title: "Phone Number"
+      number: "(212) 307-6657"
+    email:
+      title: "Email"
+      email: '<a href="mailto:management@yca.org">Monica J. Felkel, Director of Artist Management<br>Vicki Margulies, Artist Manager</a>'
+    address:
+      title: "Address"
+      address: "Young Concert Artists<br>1776 Broadway, Suite 1500<br>New York, NY 10019"
+  UK:
+    phone:
+      title: "Phone Number"
+      number: "0207 379 8477"
+    email:
+      title: "Email"
+      email: '<a href="mailto:sh@ycat.co.uk">Sue Hudson, Senior Artist Manager</a>'
+    address:
+      title: "Address"
+      address: "Young Classical Artists Trust<br>Somerset House, West Wing<br>Strand, London WC2R 1LA"
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+
+# newsletter
+newsletter:
+  enable: true
+  title: "Subscribe to the Newsletter"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
