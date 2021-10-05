@@ -38,7 +38,7 @@
             {{ end }}
         </div>
         <a
-          href="{{ "press" | relURL }}"
+          href="{{ cond (eq .Site.Language.Lang "kr") "kr/press" "press" }}"
           target="_blank"
           class="btn btn-primary"
         >
