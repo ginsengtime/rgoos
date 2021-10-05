@@ -35,29 +35,3 @@ fields:
 - type: text
   name: type
   label: type
-pages:
-- content/event/ashmont-hill-chamber-music.md
-- content/event/beethoven-s-eroica-with-the-elgin-symphony-orchestra.md
-- content/event/bravo-iii-symphonic-spectacular.md
-- content/event/clarion-concerts.md
-- content/event/concert-at-92nd-street-y.md
-- content/event/kansas-city-symphony.md
-- content/event/kaufman-music-center.md
-- content/event/leeds-lunchtime-chamber-music.md
-- content/event/los-angeles-chamber-orchestra.md
-- content/event/los-angeles-philharmonic-with-gustavo-dudamel.md
-- content/event/lunchtime-concert-at-st.george-s-bristol.md
-- content/event/mahler-s-titan-with-the-detroit-symphony-orchestra.md
-- content/event/mayflower-and-beyond-with-cape-symphony.md
-- content/event/mendelssohn-and-sibelius-with-the-philharmonia-copy.md
-- content/event/mendelssohn-and-sibelius-with-the-philharmonia.md
-- content/event/pasadena-symphony-and-pops.md
-- content/event/randall-goosby-jonathan-ware-at-saffron-hall.md
-- content/event/recital-at-wigmore-hall.md
-- content/event/san-francisco-symphony.md
-- content/event/the-fire-inside-with-london-philharmonic-orchestra.md
-- content/event/the-perlman-music-program.md
-- content/event/violin-virtuosity-with-philharmonia.md
-- content/event/west-michigan-symphony.md
-- content/event/wilmington-symphony-orchestra.md
-- content/event/yellow-barn.md
