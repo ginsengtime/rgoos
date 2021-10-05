@@ -115,27 +115,27 @@ copyright = "© Randall Goosby. All rights reserved."
 
   [[Languages.jp.menu.header]]
   name = "プロフィール"
-  URL = "#about"
+  URL = "/jp/#about"
   weight = 2
 
   [[Languages.jp.menu.header]]
   name = "スケジュール"
-  URL = "#events"
+  URL = "/jp/#events"
   weight = 3
 
   [[Languages.jp.menu.header]]
   name = "ニュース"
-  URL = "#news"
+  URL = "/jp/#news"
   weight = 4
 
   [[Languages.jp.menu.header]]
   name = "コンタクト"
-  URL = "#contact"
+  URL = "/jp/#contact"
   weight = 5
 
   [[Languages.jp.menu.footer]]
   name = "プロフィール"
-  URL = "jp/bio"
+  URL = "/jp/bio"
   weight = 2
 
   [[Languages.jp.menu.footer]]
@@ -169,40 +169,40 @@ copyright = "© Randall Goosby. All rights reserved."
 
   [[Languages.kr.menu.header]]
   name = "ABOUT"
-  URL = "#about"
+  URL = "/kr/#about"
   weight = 2
 
   [[Languages.kr.menu.header]]
   name = "CONCERTS"
-  URL = "#events"
+  URL = "/kr/#events"
   weight = 3
 
   [[Languages.kr.menu.header]]
   name = "NEWS"
-  URL = "#news"
+  URL = "/kr/#news"
   weight = 4
 
   [[Languages.kr.menu.header]]
   name = "CONTACT"
-  URL = "#contact"
+  URL = "/kr/#contact"
   weight = 5
 
   [[Languages.kr.menu.footer]]
   name = "ABOUT"
-  URL = "kr/bio"
+  URL = "/kr/bio"
   weight = 2
 
   [[Languages.kr.menu.footer]]
   name = "CONCERTS"
-  URL = "events"
+  URL = "/events"
   weight = 3
 
   [[Languages.kr.menu.footer]]
   name = "NEWS"
-  URL = "press"
+  URL = "/kr/press"
   weight = 4
 
   [[Languages.kr.menu.footer]]
   name = "CONTACT"
-  URL = "/#contact"
+  URL = "/kr/#contact"
   weight = 5
