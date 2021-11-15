@@ -35,3 +35,5 @@ fields:
 - type: text
   name: type
   label: type
+pages:
+- content/en/event/o-violino-de-leipzig.md
