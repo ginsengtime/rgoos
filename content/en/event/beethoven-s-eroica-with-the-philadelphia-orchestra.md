@@ -2,7 +2,6 @@
 date = 2022-08-11T10:30:00Z
 date2 = ""
 date3 = ""
-draft = true
 link = "https://spac.org/event/the-philadelphia-orchestra-30/"
 place = "Philadelphia, PA"
 title = "Beethoven's Eroica with the Philadelphia Orchestra"
