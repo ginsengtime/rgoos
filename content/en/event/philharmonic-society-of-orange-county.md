@@ -4,6 +4,6 @@ date2 = ""
 date3 = ""
 link = "https://www.philharmonicsociety.org/concerts-events/randall-goosby-violin"
 place = "Costa Mesa, CA"
-title = "Philharmonic Society of Orange County"
+title = "Recital with the Philharmonic Society of Orange County"
 
 +++

@@ -25,38 +25,38 @@
           <div class="col-md-12 eventable">
 
             <div class="tbl-header">
-              <table cellpadding="0" cellspacing="0" border="0">
-                <thead>
-                  <tr>
-                    <th>Date</th>
-                    <th>Venue</th>
-                    <th>Location</th>
-                  </tr>
-                </thead>
-              </table>
+              <div class="main">
+                  <div class="headrow">
+                    <div class="head">Date</div>
+                    <div class="head">Location</div>
+                    <div class="head deets">Details</div>
+                  </div>
+              </div>
             </div>
             <div class="tbl-content">
-              <table cellpadding="0" cellspacing="0" border="0">
                 <tbody>
                 {{ range (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
                   {{if ge .Date.Unix now.Unix }}
-                  <tr>
-                    <td>{{ .Date | dateFormat "02 Jan" }}
+                  <div class="row">
+                    <div class="item date">{{ .Date | dateFormat "02 Jan" }}
                     {{if .Params.date3}}
-                    – {{ .Params.date3 | dateFormat "02 Jan" }}
+                    – <p class="mobile-break"><br></p>{{ .Params.date3 | dateFormat "02 Jan" }}
                     {{ else if and (.Params.date2) (not .Params.date3)}}
-                    – {{ .Params.date2 | dateFormat "02 Jan" }}
+                    – <p class="mobile-break"><br></p>{{ .Params.date2 | dateFormat "02 Jan" }}
                     {{end}}
                     {{ if ne (.Date | dateFormat "2006") (now.Format "2006")  }}
                       {{ .Date | dateFormat "2006" }}
-                    {{ end}}</td>
-                    <td><a href="{{ .Params.link | relURL }}">{{ .Title }}</a> </td>
-                    <td>{{ .Params.place }}</td>
-                  </tr>
+                    {{ end}}</div>
+                    <div class="item place">{{ .Params.place }}</div>
+                    <div class="item title"><a href="{{ .Params.link | relURL }}">{{ .Title }}</a>
+                        {{if .Params.rep }}
+                        <br> {{ .Params.rep }} 
+                        {{ end }}
+                    </div>
+                  </div>
                   {{ end }}
                   {{ end }}
                 </tbody>
-              </table>
               </div>
             </div>
           </div>

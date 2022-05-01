@@ -4,6 +4,6 @@ date2 = ""
 date3 = ""
 link = "https://www.pcmsconcerts.org/concerts/randall-goosby-violin/"
 place = "Philadelphia, PA"
-title = "Philadelphia Chamber Music Society"
+title = "Recital with the Philadelphia Chamber Music Society"
 
 +++

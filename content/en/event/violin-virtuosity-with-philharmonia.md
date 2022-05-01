@@ -4,6 +4,6 @@ date2 = ""
 date3 = ""
 link = "https://philharmonia.co.uk/whats-on/220510-philharmonia-orchestra-violin-virtuosity/"
 place = "Canterbury, United Kingdom"
-title = " Violin Virtuosity with the Philharmonia"
+title = "Mendelssohn Violin Concerto Violin Virtuosity with the Philharmonia"
 
 +++

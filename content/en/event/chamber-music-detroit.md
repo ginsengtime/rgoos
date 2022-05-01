@@ -4,6 +4,6 @@ date2 = ""
 date3 = ""
 link = "https://www.chambermusicdetroit.org/2022-23/goosby"
 place = "Beverley Hills, MI"
-title = "Chamber Music Detroit"
+title = "Recital with Chamber Music Detroit"
 
 +++

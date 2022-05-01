@@ -4,6 +4,6 @@ date2 = ""
 date3 = ""
 link = "https://philharmonia.co.uk/whats-on/220512-mendelssohn-and-sibelius/"
 place = "Bedford, United Kingdom"
-title = "Mendelssohn and Sibelius with the Philharmonia"
+title = "Mendelssohn Violin Concerto with the Philharmonia"
 
 +++

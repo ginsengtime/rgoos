@@ -4,6 +4,6 @@ date2 = 2023-03-04T10:30:00Z
 date3 = ""
 link = "https://utahsymphony.org/event/id/28238/"
 place = "Salt Lake City, UT"
-title = "The Utah Symphony"
+title = "Bruch Violin Concerto with the Utah Symphony"
 
 +++
