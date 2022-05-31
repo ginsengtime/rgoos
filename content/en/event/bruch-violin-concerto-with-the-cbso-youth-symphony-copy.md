@@ -1,10 +1,10 @@
 +++
-date = 2022-10-30T06:00:00Z
+date = 2022-11-05T10:30:00Z
 date2 = ""
 date3 = ""
 draft = true
-link = "https://bmusic.co.uk/events/cbso-youth-orchestra-plays-bruch-lutos%C5%82awski"
-place = "Birmingham, UK"
-title = "Bruch Violin Concerto with the CBSO Youth Symphony-(copy)"
+link = "https://brightondome.org/event/29722/london_philharmonic_orchestra/"
+place = "Brighton, UK"
+title = "Bruch Violin Concerto with the London Philharmonic Orchestra "
 
 +++
