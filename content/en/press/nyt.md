@@ -8,7 +8,7 @@ summary: Where many young musicians might make their mark with a war horse conce
   Xavier Dubois Foley and first recordings of Florence Price discoveries — as well
   as by Dvorak and Gershwin, two white composers whose music on the album reveals
   an indebtedness to their Black peers.
-feature: true
+feature: false
 link: https://www.nytimes.com/2021/06/25/arts/music/randall-goosby-roots.html
 
 ---
