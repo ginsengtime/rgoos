@@ -4,6 +4,6 @@ date2 = ""
 date3 = ""
 link = "https://iriscollective.org/intersections"
 place = "Memphis, TN"
-title = "Intersections"
+title = "Intersections Chamber Concert"
 
 +++
