@@ -1,11 +1,10 @@
 +++
-date = 2022-11-05T10:30:00Z
+date = 2022-11-04T10:30:00Z
 date2 = ""
 date3 = ""
 draft = true
-link = "https://brightondome.org/event/29722/london_philharmonic_orchestra/"
-place = "Brighton, England, UK"
+link = "https://www.southbankcentre.co.uk/whats-on/classical-music/randall-goosby-plays-bruch?eventId=778527"
+place = "London, England, UK"
 title = "Bruch Violin Concerto with the London Philharmonic Orchestra"
-type = ""
 
 +++
