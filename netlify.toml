@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm install && npm run tinacms build && hugo -F"
+  command = "npm install && npm run build && hugo -F"
   
 [build.environment]
   HUGO_VERSION = "0.82.1"
