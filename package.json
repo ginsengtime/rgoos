@@ -5,13 +5,15 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-		"dev": "tinacms dev -c \"hugo server -D -F\"",
+    "dev": "tinacms dev -c \"hugo server -D -F\"",
     "build": "tinacms build && hugo -F"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^18.2.0",
     "tinacms": "^1.3.3"
   },
   "devDependencies": {
