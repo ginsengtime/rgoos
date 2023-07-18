@@ -1,5 +1,5 @@
 ---
-title: 'Korngold with Rhode Island Philharmonic '
+title: 'Korngold Violin Concerto with Rhode Island Philharmonic '
 date: '2023-11-10T15:00:00.000Z'
 place: 'Providence, RI'
 link: >-
