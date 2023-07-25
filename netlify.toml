@@ -1,6 +1,6 @@
 [build]
   publish = "public"
-  command = "npm install && npm run build && hugo -F"
+  command = "npm install && npm run build && hugo -F --force"
   
 [build.environment]
   HUGO_VERSION = "0.115.4"
