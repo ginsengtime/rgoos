@@ -3,5 +3,5 @@
   command = "npm install --force && npm run build && hugo -F"
   
 [build.environment]
-  HUGO_VERSION = "0.115.4"
+  HUGO_VERSION = "0.114.0"
 	NODE_VERSION = "19.9.0"
