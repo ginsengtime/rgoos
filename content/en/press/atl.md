@@ -1,4 +1,4 @@
-+++
+---
 title: Atlanta Symphony Orchestra — Arts ATL
 date: 2021-01-29T04:00:00.000+00:00
 img: https://www.artsatl.org/wp-content/uploads/IMG_3116-759x500.jpg
@@ -11,4 +11,4 @@ summary: His playing was transcendental. To borrow a phrase from C.S. Lewis, to 
 link: https://www.artsatl.org/guest-conductor-gemma-new-violinist-randall-goosby-electrify-symphony-hall/
 feature: false
 
-+++
+---

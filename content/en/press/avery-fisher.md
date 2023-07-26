@@ -1,4 +1,4 @@
-+++
+---
 title: Avery Fisher Career Grant recipients announced — Classical Music
 date: 2022-03-24T04:00:00.000+00:00
 img: https://images.immediate.co.uk/production/volatile/sites/24/2022/03/Randall-Goosby-6-credit-Kaupo-Kikkas-7003642.jpg
@@ -6,4 +6,4 @@ summary: The violinist Randall Goosby, who made his debut with the Jacksonville 
 link: https://www.classical-music.com/features/articles/avery-fisher-career-grant-recipients-announced/
 feature: true
 
-+++
+---
