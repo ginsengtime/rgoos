@@ -1,4 +1,4 @@
----
++++
 title: 'Announcing: Roots'
 date: 2021-05-08T00:00:00.000+00:00
 img: "/img/general/Roots.jpg"
@@ -10,7 +10,7 @@ summary: On **25th June 2021**, rising star violinist **Randall Goosby** release
   Dubois Foley**.
 feature: false
 
----
++++
 On **25th June 2021**, rising star violinist **Randall Goosby** releases _**Roots**_, an exploration of the music written by Black composers and inspired by Black American culture. The album is a homage to the pioneering musicians that paved the way for Goosby and his generation of young artists, and looks to the future, opening with a specially-commissioned work by New Jersey-based composer **Xavier Dubois Foley**. 
 
 Goosby says, _“I am so grateful for the opportunity to share this album during such a pivotal moment in history. It has been a year of division and isolation for so many – I hope this music will inspire not only the kind of curiosity and creativity that brings people together, but also the reflection, understanding and compassion we so desperately need moving forward.”_
