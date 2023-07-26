@@ -1,8 +1,8 @@
 +++
-title = 'Mozart Violin Concerto No.3 with London Philharmonic Orchestra '
+title = "Mozart Violin Concerto No.3 with London Philharmonic Orchestra"
 date = "2024-03-24T15:00:00.000Z"
 place = "Eastbourne, UK"
-link = 'https://lpo.org.uk/event/randall-goosby-plays-mozart/'
-type = event
+link = "https://lpo.org.uk/event/randall-goosby-plays-mozart/"
+type = "event"
 +++
 
