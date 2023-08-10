@@ -20,4 +20,4 @@ Randall Goosby was First Prize Winner in the 2018 Young Concert Artists Internat
 
 Goosby made his debut with the Jacksonville Symphony at age nine. At age 13, he performed with the New York Philharmonic on a Young People’s Concert at Lincoln Center’s Avery Fisher Hall and became the youngest recipient ever to win the Sphinx Concerto Competition. He is a recipient of Sphinx’s Isaac Stern Award and of a career advancement grant from the Bagby Foundation. A graduate of the Juilliard School, he continues his studies there, pursuing an Artist Diploma under Itzhak Perlman and Catherine Cho. An active chamber musician, he has spent his summers studying at the Perlman Music Program, Verbier Festival Academy and Mozarteum Summer Academy among others.
 
-He performs on the Stradivarius violin “Strauss” Cremona, 1708, on loan through the generous efforts of The Samsung Foundation of Culture of Korea 
+He performs on the Stradivarius violin “Strauss” Cremona, 1708, on loan through the generous efforts of The Samsung Foundation of Culture of Korea.
