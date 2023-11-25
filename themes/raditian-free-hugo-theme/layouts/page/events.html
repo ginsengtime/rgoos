@@ -36,7 +36,7 @@
             <div class="tbl-content">
                 <tbody>
                 {{ range (where site.RegularPages "Type" "in" site.Params.main_sections).Reverse }}
-                  {{if ge .Date.Unix now.Unix }}
+								{{if le now.Unix .Date.Unix .Params.date2}}
                   <div class="row">
                     <div class="item date">{{ .Date | dateFormat "02 Jan" }}
                     {{if .Params.date3}}
