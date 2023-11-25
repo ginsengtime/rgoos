@@ -35,17 +35,16 @@ export default defineConfig({
             type: "datetime",
             name: "date",
             label: "date",
-						ui: {
-							utc:"true",
-						}
           },
           {
             type: "datetime",
             name: "date2",
             label: "date2",
-						ui: {
-							utc:"true",
-						}
+          },
+          {
+            type: "datetime",
+            name: "date3",
+            label: "date3",
           },
           {
             type: "string",
