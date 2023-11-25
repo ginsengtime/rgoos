@@ -14,7 +14,7 @@
                 <h2 style="margin-bottom:0.5em">{{ $data.events.title }}</h2>
                 {{ range (where site.AllPages "Type" "in" site.Params.main_sections).Reverse }}
                 {{ if le $count 3}}
-                {{if or (ge .Date.Unix now.Unix (ge .Params.date2 now.Unix)}}
+                {{if or (ge .Date.Unix now.Unix) (ge .Params.date2 now.Unix)}}
                 <div class="event"><a href="{{ .Params.link | relURL }}">
                     {{ $count = (add $count 1)}}
                         <div class="event__date">{{ .Date | dateFormat "02 Jan" }}
