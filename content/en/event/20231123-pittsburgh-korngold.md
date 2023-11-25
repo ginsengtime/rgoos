@@ -1,5 +1,5 @@
 +++
-date = 2023-11-23T23:00:00Z
+date = 2023-11-24T00:00:00Z
 date2 = 2023-11-26T05:30:00Z
 date3 = ""
 link = "https://pittsburghsymphony.org/production/84664/thanksgiving-with-the-symphony"
