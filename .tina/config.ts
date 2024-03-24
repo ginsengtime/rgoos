@@ -35,6 +35,7 @@ export default defineConfig({
             type: "datetime",
             name: "date",
             label: "date",
+	    ui: { utc: true,} 
           },
           {
             type: "datetime",
