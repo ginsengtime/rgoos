@@ -19,27 +19,27 @@
   <div class="container">
     <div class="row">
       <div class="col-12 col-sm-12 col-md-8 col-lg-7 col-xl-6">
-        <!-- <p class="lead" style="margin-top: 2em;color:#fff">
-          {{ $data.showcase.description | safeHTML }}
-          <div class="testimonial__author-info">
-            <h4 style="font-family:bambino-bold;color:#fff">The New York Times</h4>
-          </div>
-        </p> -->
-        <h1 class="display-1">
-          {{ $data.showcase.title }}
+				<h1 class="display-1">
+					{{ $data.showcase.title }}
           <br />
         </h1>
-        <a href="https://randallgoosby.lnk.to/RootsWE" class="btn btn-primary"
+				<p class="lead" style="margin-top: 2em;color:#fff"><em>
+					{{ $data.showcase.description | safeHTML }}</em>
+					<div class="testimonial__author-info">
+						<h4 style="font-family:bambino-bold;color:#fff"><em>The New York Times</em></h4>
+					</div>
+				</p> 
+        <a href="https://randallgoosby.lnk.to/Products" class="btn btn-primary"
         target="_blank" style="margin-top:2.25em;margin-right:2ch">
         <i class="{{ $data.event.button.icon }}"></i>
         {{i18n "order"}}
         <i class="icon-arrow-right"></i></a>
-        <a href="https://randallgoosby.lnk.to/AdorationWE" class="btn btn-primary"
+        <a href="https://decca.lnk.to/RandallGoosby" class="btn btn-primary"
         target="_blank" style="margin-top:2.25em">
         <i class="{{ $data.event.button.icon }}"></i>
         {{i18n "listen-now"}}
         <i class="icon-arrow-right"></i></a>
-        <a data-fancybox href="{{ $data.showcase.vidURL | relURL }}">
+        <!-- <a data-fancybox href="{{ $data.showcase.vidURL | relURL }}">
           <span style="letter-spacing: normal;font-size:12px;line-height:1.5em">
             {{/*  {{ $data.showcase.subtitle | safeHTML }}  */}}
             <img
@@ -55,7 +55,7 @@
           {{/*  <svg viewBox="0 0 13 20">
             <polyline points="0.5 19.5 3 19.5 12.5 10 3 0.5" />
           </svg>  */}}
-        
+         -->
       </div>
     </div>
     </div>

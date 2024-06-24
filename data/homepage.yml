@@ -5,7 +5,7 @@ homepage:
 # showcase
 showcase:
   enable: true
-  title: "ROOTS"
+  title: "RANDALL GOOSBY"
   subtitle: "OUT NOW"
   description: "\"He exerted a masterly level of control and lavished an exquisite tone on Ysaÿe’s unaccompanied Sonata No. 3. ...his performance won him a deserved standing ovation for its sheer virtuosity.\""
   vidthumb: "../img/works/shelterislandthumb.jpg"
@@ -49,29 +49,33 @@ about:
    <p class="lead">Signed exclusively to Decca Classics in 2020 at the age of 24, American violinist Randall Goosby is acclaimed for the sensitivity and intensity of his musicianship alongside his determination to make music more inclusive and accessible, as well as bringing the music of under-represented composers to light.
     </p>
     
-    <p class="lead">Highlights of Randall Goosby’s 2021/22 season include debuts with the Los Angeles Philharmonic under Gustavo Dudamel at the Hollywood Bowl, Baltimore Symphony under Dalia Stasevska, Detroit Symphony under Jader Bignamini, London Philharmonic Orchestra and Philharmonia Orchestra.</p>'
+    <p class="lead">Highlights of Randall Goosby’s 2023/24 season include debut performances with the Boston Symphony Orchestra/Andris Nelsons, National Symphony/Thomas Wilkins, Pittsburgh Symphony/Manfred Honeck, Seattle Symphony and St Louis Symphony both under Christian Reif, with European debuts including a European tour with the Rotterdam Philharmonic Orchestra under Yannick Nezet-Seguin, Danish National Radio Symphony/Jukka-Pekka Saraste, Oslo Philharmonic/Ryan Bancroft and Lahti Symphony/Dalia Stasevska.</p>'
   button:
     icon: "icon-arrow-right"
     btnText: "⠀Read More"
     URL: "/bio"
   image:
     x: "../img/who-am-i/goos.JPG"
-    _2x: "../img/who-am-i/goos.JPG"
+    _2x: "../img/who-am-i/goos24.jpg"
 
-# education
-education:
-  enable: false
-  title: "Education"
+# releases
+releases:
+  enable: true
+  title: "Releases"
   items:
-    - university: "University of Waterloo"
-      year: "2012-2017"
-      degree: "Bachelor of Applied Science (BASc), Electrical Engineering"
+    - title: "Roots: Deluxe Edition"
+      date: "April 5, 2024"
+      cover: ../img/works/rootsdx-med.jpg
 
-    - university: "Sir John A Macdonald CI"
-      year: "2009-2012"
-      degree: "High School Diploma, Sciences, Math, Computer & Business Studies"
+    - title: "Bruch: Violin Concerto No. 1; Florence Price: Violin Concertos"
+      date: "May 19, 2023"
+      cover: ../img/works/bruchprice-med.jpg
 
-# experience
+    - title: "Roots"
+      date: "June 25, 2021"
+      cover: ../img/works/roots.jpg
+
+# events
 events:
   enable: true
   title: "Events"

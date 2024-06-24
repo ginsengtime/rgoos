@@ -1,18 +1,20 @@
-{{ if .Site.Data.homepage.education.enable }}
+{{ if .Site.Data.homepage.releases.enable }}
 <section class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down">
             <div class="col-12">
-                <h2>{{ .Site.Data.homepage.education.title }}</h2>
+                <h2>{{ .Site.Data.homepage.releases.title }}</h2>
                 <div class="row pt-2 pt-md-4">
-                    {{ range .Site.Data.homepage.education.items }}
+                    {{ range .Site.Data.homepage.releases.items }}
                     <div class="col-12 col-sm-6 mb-4 mb-sm-0">
-                        <div class="education">
-                            <div class="education__date">{{ .year }}</div>
-                            <div class="education__title">{{ .university }}</div>
-                            <div class="education__degree">
-                                {{ .degree }}
-                            </div>
+                        <div class="releases">
+													<div class="releases__cover">
+															<img src="{{ .cover }}">
+													</div>
+                            <div class="releases__text">
+															<div class="releases__date">{{ .date }}</div>
+															<div class="releases__title">{{ .title }}</div>
+														</div>
                         </div>
                     </div>
                     {{ end }}
