@@ -71,14 +71,19 @@ copyright = "© Randall Goosby. All rights reserved."
   weight = 3
 
   [[Languages.en.menu.header]]
+  name = "Releases"
+  URL = "/#releases"
+  weight = 4
+
+  [[Languages.en.menu.header]]
   name = "News"
   URL = "/#news"
-  weight = 4
+  weight = 5
 
   [[Languages.en.menu.header]]
   name = "Contact"
   URL = "/#contact"
-  weight = 5
+  weight = 6
 
   [[Languages.en.menu.footer]]
   name = "About"
@@ -91,14 +96,19 @@ copyright = "© Randall Goosby. All rights reserved."
   weight = 3
 
   [[Languages.en.menu.footer]]
+  name = "Releases"
+  URL = "/#releases"
+  weight = 4
+
+  [[Languages.en.menu.footer]]
   name = "News"
   URL = "/press"
-  weight = 4
+  weight = 5
 
   [[Languages.en.menu.footer]]
   name = "Contact"
   URL = "/#contact"
-  weight = 5
+  weight = 6
   
 [Languages.jp]
 languageName = "日本語"
@@ -124,14 +134,19 @@ copyright = "© Randall Goosby. All rights reserved."
   weight = 3
 
   [[Languages.jp.menu.header]]
+  name = "アルバム"
+  URL = "/jp/#releases"
+  weight = 4
+
+  [[Languages.jp.menu.header]]
   name = "ニュース"
   URL = "/jp/#news"
-  weight = 4
+  weight = 5
 
   [[Languages.jp.menu.header]]
   name = "コンタクト"
   URL = "/jp/#contact"
-  weight = 5
+  weight = 6
 
   [[Languages.jp.menu.footer]]
   name = "プロフィール"
@@ -144,14 +159,19 @@ copyright = "© Randall Goosby. All rights reserved."
   weight = 3
 
   [[Languages.jp.menu.footer]]
+  name = "アルバム"
+  URL = "#releases"
+  weight = 4
+
+  [[Languages.jp.menu.footer]]
   name = "ニュース"
   URL = "press"
-  weight = 4
+  weight = 5
 
   [[Languages.jp.menu.footer]]
   name = "コンタクト"
   URL = "contact"
-  weight = 5
+  weight = 6
 
 [Languages.kr]
 languageName = "한국어"
@@ -178,14 +198,19 @@ copyright = "© Randall Goosby. All rights reserved."
   weight = 3
 
   [[Languages.kr.menu.header]]
+  name = "앨범"
+  URL = "/kr/#releases"
+  weight = 4
+
+  [[Languages.kr.menu.header]]
   name = "NEWS"
   URL = "/kr/#news"
-  weight = 4
+  weight = 5
 
   [[Languages.kr.menu.header]]
   name = "CONTACT"
   URL = "/kr/#contact"
-  weight = 5
+  weight = 6
 
   [[Languages.kr.menu.footer]]
   name = "ABOUT"
@@ -198,11 +223,16 @@ copyright = "© Randall Goosby. All rights reserved."
   weight = 3
 
   [[Languages.kr.menu.footer]]
+  name = "앨범"
+  URL = "/kr/#releases"
+  weight = 4
+
+  [[Languages.kr.menu.footer]]
   name = "NEWS"
   URL = "/kr/press"
-  weight = 4
+  weight = 5
 
   [[Languages.kr.menu.footer]]
   name = "CONTACT"
   URL = "/kr/#contact"
-  weight = 5
+  weight = 6

@@ -127,6 +127,8 @@
    
 @media (max-width:768px){
   .deets {visibility:visible;}
+	.row
+	{justify-content: center}
 }
 
 @media (min-width:1200px){
