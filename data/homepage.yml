@@ -55,8 +55,8 @@ about:
     btnText: "⠀Read More"
     URL: "/bio"
   image:
-    x: "../img/who-am-i/goos.JPG"
-    _2x: "../img/who-am-i/goos24.jpg"
+    x: "../img/who-am-i/bio.jpg"
+    _2x: "../img/who-am-i/bio@2x.jpg"
 
 # releases
 releases:
@@ -74,6 +74,10 @@ releases:
     - title: "Roots"
       date: "June 25, 2021"
       cover: ../img/works/roots.jpg
+
+  image:
+    x: "../img/general/releases.jpg"
+    _2x: "../img/general/releases@2x.jpg"
 
 # events
 events:

@@ -1,12 +1,14 @@
+{{ $data := .Site.Data.homepage }}
+
 {{ if .Site.Data.homepage.releases.enable }}
 <section id="releases" class="section section--border-bottom rad-animation-group">
     <div class="container">
         <div class="row rad-fade-down">
-            <div class="col-12">
-                <h2>{{ .Site.Data.homepage.releases.title }}</h2>
-                <div class="row pt-2 pt-md-4">
+					<div class="col-12 col-md-6">
+						<h2>{{ .Site.Data.homepage.releases.title }}</h2>
+						<div class="row pt-2 pt-md-4">
                     {{ range .Site.Data.homepage.releases.items }}
-                    <div class="col-12 col-sm-6 mb-4 mb-sm-0">
+                    <div class="col-12 col-sm-12 mb-4 mb-sm-0">
                         <div class="releases">
 													<div class="releases__cover">
 															<img src="{{ .cover }}">
@@ -15,12 +17,19 @@
 															<div class="releases__date">{{ .date }}</div>
 															<div class="releases__title">{{ .title }}</div>
 														</div>
-                        </div>
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
-        </div>
-    </div>
+													</div>
+												</div>
+												{{ end }}
+											</div>
+										</div>
+										<div class="about__profile-picture col-12 col-md-6">
+											<img class="lozad img-responsive rounded"
+												src="data:image/gif;base64,R0lGODlhBwACAIAAAP///wAAACH5BAEAAAEALAAAAAAHAAIAAAIDjI9YADs="
+												data-src="{{ $data.releases.image.x | relURL }}"
+												data-srcset="{{ $data.releases.image.x | relURL }} 1x, {{ $data.releases.image._2x | relURL }} 2x"
+												alt="Profile Picture" />
+											</div>
+									</div>
+								</div>
 </section>
 {{ end }}

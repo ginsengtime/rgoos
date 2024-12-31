@@ -7,7 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© Randall Goosby. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://randallgoosby.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://randallgoosby.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chamber Concert at the Verbier Festival</title>
+      <link>https://randallgoosby.com/event/20250801-verbier-recital/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250801-verbier-recital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recital with Julien Quentin at the Verbier Festival</title>
+      <link>https://randallgoosby.com/event/20250726-verbier-recital/</link>
+      <pubDate>Sat, 26 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250726-verbier-recital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mozart Violin Concerto No. 3 with the Philadelphia Orchestra at Bravo! Vail Music Festival</title>
+      <link>https://randallgoosby.com/event/20250706-vail-bravofest/</link>
+      <pubDate>Sun, 06 Jul 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250706-vail-bravofest/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Price Violin Concerto No. 2 with the Chicago Symphony Orchestra</title>
+      <link>https://randallgoosby.com/event/20250605-chicago-price/</link>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250605-chicago-price/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Mendelssohn Violin Concerto with the Royal Scottish National Orchestra</title>
       <link>https://randallgoosby.com/event/20250529-dundee-mendelssohn-copy-2/</link>
@@ -36,20 +72,11 @@
     </item>
     
     <item>
-      <title>Recital with Zhu Wang at Perth Concert Hall</title>
-      <link>https://randallgoosby.com/event/20250510_recital_perth/</link>
-      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <title>Recital with Zhu Wang at Southbank Centre</title>
+      <link>https://randallgoosby.com/event/20250511-london-recital/</link>
+      <pubDate>Sun, 11 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://randallgoosby.com/event/20250510_recital_perth/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recital with Zhu Wang at Perth Concert Hall</title>
-      <link>https://randallgoosby.com/event/20250530-edinburgh-mendelssohn/</link>
-      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20250530-edinburgh-mendelssohn/</guid>
+      <guid>https://randallgoosby.com/event/20250511-london-recital/</guid>
       <description></description>
     </item>
     
@@ -59,6 +86,24 @@
       <pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate>
       
       <guid>https://randallgoosby.com/event/20250508-antwerp-recital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recital with Zhu Wang at De Doelen</title>
+      <link>https://randallgoosby.com/event/20250503-rotterdam-recital/</link>
+      <pubDate>Sat, 03 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250503-rotterdam-recital/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recital with Zhu Wang at Concertgebouw</title>
+      <link>https://randallgoosby.com/event/20250502-amsterdam-recital/</link>
+      <pubDate>Fri, 02 May 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250502-amsterdam-recital/</guid>
       <description></description>
     </item>
     
@@ -99,7 +144,34 @@
     </item>
     
     <item>
-      <title>Mendelssohn Violin Concerto with Philadelphia Orchestra</title>
+      <title>Renaissance String Quartet at First Presbyterian Church</title>
+      <link>https://randallgoosby.com/event/20250327_quartet-sarasota/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250327_quartet-sarasota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Renaissance String Quartet at Manatee Performing Arts Center</title>
+      <link>https://randallgoosby.com/event/20250326_quartet-sarasota/</link>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250326_quartet-sarasota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Renaissance String Quartet ft. Westcoast Black Theatre Troupe</title>
+      <link>https://randallgoosby.com/event/20250324-quartet-sarasota/</link>
+      <pubDate>Mon, 24 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://randallgoosby.com/event/20250324-quartet-sarasota/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mendelssohn Violin Concerto with the Philadelphia Orchestra</title>
       <link>https://randallgoosby.com/event/20250315-philly-mendelssohn/</link>
       <pubDate>Thu, 13 Mar 2025 00:00:00 +0000</pubDate>
       
@@ -108,7 +180,7 @@
     </item>
     
     <item>
-      <title>Price Violin Concerto No. 2 with the the Netherlands Radio Philharmonic Orchestra</title>
+      <title>Price Violin Concerto No. 2 with the Netherlands Radio Philharmonic Orchestra</title>
       <link>https://randallgoosby.com/event/20250301-amsterdam-price/</link>
       <pubDate>Sat, 01 Mar 2025 00:00:00 +0000</pubDate>
       
@@ -117,16 +189,7 @@
     </item>
     
     <item>
-      <title>Price Violin Concerto No. 2 with the City of Birmingham Symphony Orchestra</title>
-      <link>https://randallgoosby.com/event/20250220-london-price/</link>
-      <pubDate>Thu, 20 Feb 2025 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20250220-london-price/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Price Violin Concerto No. 2 with the Cincinnati Symphony Orchestra</title>
+      <title>Chausson, Price Violin Concerto No. 2 with the Cincinnati Symphony Orchestra</title>
       <link>https://randallgoosby.com/event/20250208_cincy_price/</link>
       <pubDate>Sat, 08 Feb 2025 15:00:00 +0000</pubDate>
       
@@ -153,133 +216,16 @@
     </item>
     
     <item>
-      <title>Barber Violin Concerto with Royal Scottish National Orchestra </title>
-      <link>https://randallgoosby.com/event/20241207_barber_glasgow/</link>
-      <pubDate>Sat, 07 Dec 2024 00:00:00 +0000</pubDate>
+      <title>Price Violin Concerto No. 2 with the National Arts Center Orchestra</title>
+      <link>https://randallgoosby.com/event/20250114_price_ottawa/</link>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       
-      <guid>https://randallgoosby.com/event/20241207_barber_glasgow/</guid>
+      <guid>https://randallgoosby.com/event/20250114_price_ottawa/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Barber Violin Concerto with Royal Scottish National Orchestra </title>
-      <link>https://randallgoosby.com/event/20241206_barber_edinburgh/</link>
-      <pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241206_barber_edinburgh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recital with the Renessance String Quartet </title>
-      <link>https://randallgoosby.com/event/20241123_quartet_troy/</link>
-      <pubDate>Sat, 23 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241123_quartet_troy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recital with the Renaissance String Quartet</title>
-      <link>https://randallgoosby.com/event/20241127_renaissance_princeton/</link>
-      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241127_renaissance_princeton/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Recital with the Renessance String Quartet</title>
-      <link>https://randallgoosby.com/event/20241121-recital-princeton/</link>
-      <pubDate>Thu, 21 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241121-recital-princeton/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mendelssohn Violin Concerto with the Minnesota Orchestra</title>
-      <link>https://randallgoosby.com/event/20241114-mendelssohn-minneapolis/</link>
-      <pubDate>Thu, 14 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241114-mendelssohn-minneapolis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Mendelssohn Violin Concerto with the Iris Collective</title>
-      <link>https://randallgoosby.com/event/20241102-mendelssohn-memphis/</link>
-      <pubDate>Sat, 02 Nov 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241102-mendelssohn-memphis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Price Violin Concerto No. 2 with the Utah Symphony</title>
-      <link>https://randallgoosby.com/event/20241025-utah-price/</link>
-      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241025-utah-price/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Barber Violin Concerto with the London Philharmonic Orchestra</title>
-      <link>https://randallgoosby.com/event/20241020_barber_brookville-copy/</link>
-      <pubDate>Sun, 20 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241020_barber_brookville-copy/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Barber Violin Concerto with the London Philharmonic Orchestra</title>
-      <link>https://randallgoosby.com/event/20241017_barber_eastlansing/</link>
-      <pubDate>Thu, 17 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241017_barber_eastlansing/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Barber Violin Concerto with the London Philharmonic Orchestra </title>
-      <link>https://randallgoosby.com/event/20241010_barber_northridge/</link>
-      <pubDate>Thu, 10 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241010_barber_northridge/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Barber Violin Concerto with the London Philharmonic Orchestra</title>
-      <link>https://randallgoosby.com/event/20241008_barber_davis/</link>
-      <pubDate>Wed, 09 Oct 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20241008_barber_davis/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Barber Violin Concerto with the Colorado Springs Philharmonic </title>
-      <link>https://randallgoosby.com/event/20240928_barber_colorado/</link>
-      <pubDate>Sat, 28 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20240928_barber_colorado/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Barber Violin Concerto with the Mobile Symphony</title>
-      <link>https://randallgoosby.com/event/20240921-mobile-barber/</link>
-      <pubDate>Sat, 21 Sep 2024 00:00:00 +0000</pubDate>
-      
-      <guid>https://randallgoosby.com/event/20240921-mobile-barber/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Randall Goosby and Zhu Wang deliver a captivating recital of Romantic classics, works by Black composers</title>
+      <title>Randall Goosby and Zhu Wang deliver a captivating recital of Romantic classics, works by Black composers - Earrelevant</title>
       <link>https://randallgoosby.com/press/earrelevant-atl/</link>
       <pubDate>Thu, 11 Apr 2024 00:00:00 +0000</pubDate>
       
