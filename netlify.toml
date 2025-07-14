@@ -5,4 +5,4 @@
 [build.environment]
   HUGO_VERSION = "0.115.0"
 	NODE_VERSION = "19.9.0"
-  TZ='Etc/UTC'
+  TZ='America/New_York'
