@@ -44,12 +44,11 @@ about:
   enable: true
   title: "About"
   content: '<p class="lead">
-    “For me, personally, music has been a way to inspire others” – Randall Goosby’s own words sum up perfectly his commitment to being an artist who makes a difference.</p>
-
-   <p class="lead">Signed exclusively to Decca Classics in 2020 at the age of 24, American violinist Randall Goosby is acclaimed for the sensitivity and intensity of his musicianship alongside his determination to make music more inclusive and accessible, as well as bringing the music of under-represented composers to light.
-    </p>
+    Signed exclusively to Decca Classics in 2020 at the age of 24, American violinist Randall Goosby is acclaimed for the sensitivity and intensity of his musicianship alongside his determination to make music more inclusive and accessible, as well as bringing the music of under-represented composers to light. Goosby serves on Juilliard’s Pre-College violin faculty, is the Cincinnati Symphony’s Inaugural Community Artist-in-Residence, and as of 2024/25, he is a member of Konzerthaus Dortmund’s series “Junge Wilde”.</p>
     
-    <p class="lead">Highlights of Randall Goosby’s 2025/26 season include debut performances with the Atlanta Symphony/Leonard Slatkin, Orchestre National de France/Cristian Măcelaru, KBS Symphony/Peter Oundjian, andSan Diego Symphony/Kahchun Wong. Goosby returns to the San Francisco Symphony, Pittsburgh Symphony, and New Jersey Symphony. He appears in recital across North America and Europe with pianist Zhu Wang as well as with the Renaissance Quartet, and joins clarinetist Anthony McGill and pianist Joshua Mhoon in a program presented by the Philadelphia Chamber Music Society.</p>'
+    <p class="lead">Highlights of Randall Goosby’s 2026/27 season include returns to the Dallas Symphony/Matthias Pintscher and Chicago Symphony/Karina Canellakis and debut performances with the Pacific Symphony/Eric Jacobsen, São Paulo Symphony/Marin Alsop, Montpellier Orchestra/Roderick Cox, Chattanooga Symphony/Ilya Ram, Long Beach Symphony/Eckert Preu, and New Bedford Symphony/Yaniv Dinur. He appears in recital across North America and Europe with pianist Zhu Wang as well as with the Renaissance Quartet, who has been named by the Caramoor Center as the 2026/27 Ernst Stiefel String Quartet-in-Residence.</p>'
+
+    <p class="lead">Goosby plays the Antonio Stradivarius, Cremona, “ex-Strauss,” 1708 on generous loan from Samsung Foundation of Culture.</p>
   button:
     icon: "icon-arrow-right"
     btnText: "⠀Read More"
